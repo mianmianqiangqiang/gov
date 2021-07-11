@@ -1,0 +1,113 @@
+
+body {
+    background: none;
+}
+
+.sub-top {
+    height: 136px;
+    background: url("../images/sub_top_bg.jpg") center top no-repeat;
+}
+
+
+
+.sub-top .search-wrap {
+    margin-top: 44px;
+    margin-left: 0;
+    width: 399px;
+    height: 46px;
+    padding-top: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background-color:  transparent
+}
+
+
+.sub-top .search {
+    width: 240px;
+    padding-left: 30px;
+    height: 46px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    background-color:  #fff
+}
+
+.sub-top .search .input-box {
+    color: #999;
+    height: 46px;
+    line-height: 45px;
+}
+
+.sub-top .search .input-placeholder {
+    color: #999;
+    left: 30px;
+    height: 46px;
+    line-height: 45px;
+}
+
+.sub-top .search-btn {
+    width: 129px;
+    height: 46px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    background-color: #1882e7;
+}
+
+/* 导航 */
+
+.subnav {
+    height: 64px;
+    background-color: #0a69c2;
+    box-shadow: 0 2px 5px rgba(13,14,14,0.55);
+}
+ 
+
+.sub-nav-items >li {
+    float:left;
+    width: 14.285714285%;
+    background: url("../images/sub_nav_line.png") left center no-repeat;
+}
+
+.sub-nav-items >li:first-child {
+    background: none;
+}
+
+.sub-nav-items >li >a {
+    margin-right:-1px;
+    display: block;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.sub-nav-items >li:hover,
+.sub-nav-items >li.active {
+    position: relative;
+    z-index: 99;
+}
+
+.sub-nav-items >li.active>a,
+.sub-nav-items >li >a:hover {
+    font-weight: bold;
+    background-color: #1882e7;
+}
+
+/* 面包屑 */
+
+.route-info {
+    margin-top: 26px;
+    margin-left: 12px;
+    padding-left: 23px;
+    height: 24px;
+    line-height: 24px;
+    background: url("../images/route_ico.png") left center no-repeat;
+}
+
+.route-last {
+    color: #028bff;
+}
+
+.route-info a {
+    color: #333;
+}

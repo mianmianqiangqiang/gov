@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>
+			福建省建设行业企业和人员信息公开平台
+		</title>
+
+		<style type="text/css">
+			html,
+			body {
+				height: 100%;
+			}
+
+			body {
+				font-size: 12px;
+				font-family: Consolas, SimSun, serif;
+				background: #69C url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/cloud.png) fixed no-repeat;
+				margin: 0;
+			}
+
+			dl,
+			ul,
+			h2 {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			dd,
+			ul {
+				margin-left: 0;
+			}
+
+			ul {
+				padding-left: 0;
+			}
+
+			li {
+				list-style: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			img,
+			input,
+			select,
+			textarea {
+				vertical-align: middle;
+			}
+
+			img {
+				border: none;
+			}
+
+			.BG {
+				background-image: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BG.png);
+				background-repeat: no-repeat;
+			}
+
+			.BGx {
+				background-image: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BGx.png);
+				background-repeat: repeat-x;
+			}
+
+			.BGy {
+				background-image: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BGy.png);
+				background-repeat: repeat-y;
+			}
+
+			.clear {
+				font-size: 0;
+				clear: both;
+			}
+
+			.bubble {
+				color: #FFF;
+				line-height: 24px;
+				background-color: #000;
+				opacity: 0.75;
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+
+			.Mask,
+			.Mask iframe {
+				height: 100%;
+			}
+
+			.Mask {
+				width: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+
+			table.Mask {
+				font-size: 18px;
+				line-height: 36px;
+				z-index: 2;
+			}
+
+			div.Mask {
+				background-color: #FFF;
+				opacity: 0.75;
+				z-index: 1;
+				filter: Alpha(Opacity=0.75);
+			}
+
+			#banner {
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/banner.png) center no-repeat;
+				height: 187px;
+			}
+
+			#NAV,
+			#main {
+				width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#NAV li {
+				height: 48px;
+			}
+
+			#NAV .br,
+			#NAV .b7 {
+				height: 48px;
+				width: 5px;
+			}
+
+			#NAV .br,
+			#NAV .links li {
+				float: left;
+			}
+
+			#NAV .b7 {
+				float: right;
+				background-position: -5px 0;
+			}
+
+			#NAV .links {
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+
+			#NAV .links li {
+				font-size: 14px;
+				line-height: 48px;
+				text-align: center;
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BL_1.png) right no-repeat;
+				min-width: 69px;
+				padding-left: 13px;
+				padding-right: 13px;
+			}
+
+			#NAV a {
+				color: #FFF;
+				font-weight: bold;
+			}
+
+			#NAV a:link,
+			#NAV a:visited {
+				text-shadow: #2963B6 1px 1px;
+			}
+
+			#main {
+				background-color: #FFF;
+				padding-top: 10px;
+				border-radius: 0 0 5px 5px;
+			}
+
+			#crumb {
+				color: #666;
+				line-height: 28px;
+				padding-left: 10px;
+				padding-bottom: 9px;
+			}
+
+			#crumb a:link,
+			#crumb a:visited {
+				color: #666;
+				border-bottom: 1px dotted #666;
+			}
+
+			#crumb a:hover,
+			#crumb a:active {
+				color: #C30;
+				border-bottom: 1px dotted #C30;
+			}
+
+			.loginPanel {
+				float: right;
+				margin-right: 10px;
+			}
+
+			.loginPanel .portal {
+				color: #FFF;
+				display: block;
+				line-height: 28px;
+				width: 72px;
+				background-position: -321px -140px;
+				padding-left: 35px;
+				cursor: pointer;
+			}
+
+			.col_S1 {
+				width: 320px;
+				float: left;
+				padding-left: 10px;
+			}
+
+			.col_S2 {
+				margin-left: 340px;
+				margin-right: 10px;
+			}
+
+			.col_S3 {
+				width: 980px;
+				margin: 0 auto 55px;
+			}
+
+			.panel_S1 {
+				width: 320px;
+				margin-bottom: 10px;
+			}
+
+			.panel_S1 .title {
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 39px;
+				text-align: center;
+				background-position: 0 -78px;
+				text-shadow: 1px 1px #FFF;
+			}
+
+			.panel_S1 .links {
+				overflow: auto;
+				padding-left: 6px;
+				padding-bottom: 5px;
+			}
+
+			.panel_S1 a {
+				color: #36C;
+				line-height: 30px;
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BG.png) -321px -109px no-repeat;
+				display: block;
+				width: 134px;
+				float: left;
+				font-weight: bold;
+				margin-top: 5px;
+				margin-left: 4px;
+				padding-left: 14px;
+			}
+
+			.panel_S1 img {
+				vertical-align: -5px;
+			}
+
+			.panel_S1 .main {
+				color: #C30;
+				background-position: -321px -78px;
+			}
+
+			.panel_S1 .pb {
+				height: 9px;
+				background-position: 0 -227px;
+			}
+
+			.panel_S2 {
+				border: 1px solid #69C;
+				border-radius: 5px;
+				margin-bottom: 10px;
+			}
+
+			.panel_S2 .title {
+				line-height: 32px;
+				background-position: 0 -50px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border-radius: 5px 5px 0 0;
+			}
+
+			.panel_S2 .title a {
+				color: #36C;
+				float: right;
+			}
+
+			.panel_S2 .title span {
+				color: #36C;
+				font-size: 14px;
+				font-weight: bold;
+				display: block;
+				border-bottom: 1px solid #69C;
+			}
+
+			.panel_S2 .links_S1 {
+				line-height: 24px;
+				padding: 10px 0;
+				margin: 0 12px;
+				overflow: auto;
+			}
+
+			.panel_S2 .links_S1 li {
+				white-space: nowrap;
+				word-break: keep-all;
+				float: left;
+				width: 50%;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+
+			.panel_S2 .links_S1 a:link,
+			.panel_S2 .links_S1 a:visited {
+				color: #000;
+			}
+
+			.panel_S2 .links_S1 a:hover,
+			.panel_S2 .links_S1 a:active {
+				color: #C30;
+				border-bottom: 1px dotted #C30;
+			}
+
+			.panel_S2 .bull {
+				color: #F00;
+			}
+
+			.panel_S3 {
+				border: 1px solid #FFA51F;
+				border-radius: 5px;
+			}
+
+			.panel_S3 .th {
+				font-weight: bold;
+				line-height: 32px;
+				background-position: 0 -85px;
+				border-radius: 5px 5px 0 0;
+				border-bottom: 1px solid #FFA51F;
+			}
+
+			.panel_S3 .list {
+				line-height: 32px;
+				margin-bottom: 4px;
+				height: 160px;
+			}
+
+			.panel_S3 td {
+				width: 22%;
+				padding-left: 1%;
+				padding-right: 1%;
+			}
+
+			.panel_S3 td+td {
+				width: 13%;
+			}
+
+			.panel_S3 td+td+td {
+				width: 22%;
+			}
+
+			.panel_S3 td+td+td+td {
+				width: 13%;
+			}
+
+			.panel_S3 td+td+td+td+td {
+				width: 22%;
+			}
+
+			.panel_S3 a:link,
+			.panel_S3 a:visited {
+				color: #36C;
+			}
+
+			.panel_S3 a:hover,
+			.panel_S3 a:active {
+				color: #C30;
+			}
+
+			.panel_S4 {
+				border: 1px solid #98B232;
+				border-radius: 5px;
+			}
+
+			.panel_S4 .th {
+				font-weight: bold;
+				line-height: 32px;
+				background-position: 0 -485px;
+				border-radius: 5px 5px 0 0;
+				border-bottom: 1px solid #98B232;
+			}
+
+			.panel_S4 .list {
+				line-height: 32px;
+				margin-bottom: 4px;
+				height: 160px;
+			}
+
+			.panel_S4 td {
+				width: 8%;
+				padding-left: 1%;
+				padding-right: 1%;
+			}
+
+			.panel_S4 td+td {
+				width: 18%;
+			}
+
+			.panel_S4 td+td+td {
+				width: 12%;
+			}
+
+			.panel_S4 td+td+td+td {
+				width: 14%;
+			}
+
+			.panel_S4 td+td+td+td+td {
+				width: 12%;
+			}
+
+			.panel_S4 td+td+td+td+td+td {
+				width: 24%;
+			}
+
+			.panel_S5 ul {
+				line-height: 33px;
+				overflow: auto;
+			}
+
+			.panel_S5 li {
+				float: left;
+				background-color: #EFEFEF;
+				padding-left: 14px;
+				padding-right: 14px;
+				margin-right: 1px;
+				border-radius: 5px 5px 0 0;
+				cursor: pointer;
+			}
+
+			.panel_S5 .current {
+				font-weight: bold;
+				border-bottom: 1px solid #FFF;
+				position: relative;
+			}
+
+			.panel_S5 .content {
+				margin-top: -1px;
+				padding: 10px;
+			}
+
+			.panel_S5.orange .current {
+				border-top: 1px solid #FFA51F;
+				border-left: 1px solid #FFA51F;
+				border-right: 1px solid #FFA51F;
+				background: url("http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/BGx.png") 0 -85px repeat-x;
+			}
+
+			.panel_S5.orange .content {
+				border: 1px solid #FFA51F;
+			}
+
+			.form {
+				font-size: 12px;
+			}
+
+			.form th,
+			.form td {
+				padding: 12px 6px;
+			}
+
+			.form th {
+				text-align: right;
+				width: 15%;
+			}
+
+			.form.orange {
+				border-left: 1px solid #FFA51F;
+				border-right: 1px solid #FFA51F;
+				border-top: 1px solid #FFA51F;
+			}
+
+			.form.orange th {
+				background-color: #FFEDD1;
+			}
+
+			.form.orange th,
+			.form.orange td {
+				border-bottom: 1px solid #FFA51F;
+			}
+
+			.form.grey {
+				border-left: 1px solid #E8E8E8;
+				border-right: 1px solid #E8E8E8;
+				border-top: 1px solid #E8E8E8;
+			}
+
+			.form.grey th {
+				background-color: #F2F2F2;
+			}
+
+			.form.grey th,
+			.form.grey td {
+				border-bottom: 1px solid #E8E8E8;
+			}
+
+			.generalTitle {
+				font-size: 14px;
+				font-weight: bold;
+				padding-bottom: 14px;
+				padding-top: 14px;
+			}
+
+			.generalTitle span {
+				display: inline-block;
+				height: 14px;
+				width: 4px;
+				margin-right: 14px;
+				vertical-align: -2px;
+			}
+
+			.generalTitle.orange span {
+				background-color: #FFA51F;
+			}
+
+			.generalTitle.green span {
+				background-color: #98B232;
+			}
+
+			#switch {
+				font-weight: bold;
+				line-height: 24px;
+				float: right;
+				margin-top: 9px;
+				border: 1px solid #DFDFDF;
+				background-image: linear-gradient(to top, #F2F2F2, #FDFDFD);
+				border-radius: 5px;
+			}
+
+			#switch li {
+				float: left;
+				padding-left: 7px;
+				padding-right: 7px;
+			}
+
+			#switch .on {
+				color: #666;
+				background-color: #DFDFDF;
+			}
+
+			#switch a {
+				color: #666;
+			}
+
+			.t {
+				line-height: 32px;
+			}
+
+			.t td {
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+
+			.t.orange {
+				border-left: 1px solid #FFA51F;
+				border-bottom: 1px solid #FFA51F;
+				border-top: 1px solid #FFA51F;
+			}
+
+			.t.orange th,
+			.t.orange td {
+				border-right: 1px solid #FFA51F;
+			}
+
+			.t.orange th {
+				border-bottom: 1px solid #FFA51F;
+			}
+
+			.t.green {
+				border-left: 1px solid #98B232;
+				border-bottom: 1px solid #98B232;
+				border-top: 1px solid #98B232;
+			}
+
+			.t.green th,
+			.t.green td {
+				border-right: 1px solid #98B232;
+			}
+
+			.t.green th {
+				border-bottom: 1px solid #98B232;
+			}
+
+			.t.grey {
+				border-left: 1px solid #E8E8E8;
+				border-bottom: 1px solid #E8E8E8;
+				border-top: 1px solid #E8E8E8;
+				margin-bottom: 10px;
+			}
+
+			.t.grey th,
+			.t.grey td {
+				border-right: 1px solid #E8E8E8;
+			}
+
+			.t.grey th {
+				border-bottom: 1px solid #E8E8E8;
+			}
+
+			.pageTurn {
+				overflow: auto;
+				padding-bottom: 12px;
+				padding-top: 12px;
+			}
+
+			#ad {
+				margin-bottom: 10px;
+			}
+
+			#searchPanel {
+				border: 1px solid #E8E8E8;
+				border-radius: 5px;
+				background-color: #FAFAFA;
+				padding-top: 6px;
+				padding-bottom: 6px;
+				margin-top: 10px;
+			}
+
+			#searchPanel th,
+			#searchPanel td {
+				padding-bottom: 6px;
+				padding-top: 6px;
+			}
+
+			#searchPanel th {
+				text-align: right;
+			}
+
+			#searchPanel select,
+			#searchPanel .inputText {
+				height: 24px;
+			}
+
+			#searchPanel .inputText {
+				border: 1px solid #E8E8E8;
+			}
+
+			#searchPanel .inputText:focus {
+				background-color: #FFC;
+			}
+
+			#searchPanel input[type="submit"] {
+				height: 64px;
+				width: 64px;
+				border: none;
+				border-radius: 5px;
+			}
+
+			#searchPanel .wait {
+				background-color: #E8E8E8;
+				cursor: wait;
+			}
+
+			#searchPanel .O_btn,
+			#searchPanel .G_btn {
+				color: #FFF;
+				cursor: pointer;
+			}
+
+			#searchPanel .O_btn {
+				background-color: #FFA51F;
+			}
+
+			#searchPanel .G_btn {
+				background-color: #98B232;
+			}
+
+			.searchBar {
+				margin-bottom: 10px;
+			}
+
+			.searchBar input {
+				margin-top: 11px;
+			}
+
+			.searchBar input[type="text"] {
+				color: #666;
+				font-size: 14px;
+				line-height: 36px;
+				height: 36px;
+				width: 628px;
+				border: 1px solid #DEDEDE;
+				padding-left: 7px;
+				background-position: 0 -446px;
+			}
+
+			.searchBar input.BG {
+				background-position: -321px -169px;
+				height: 40px;
+				width: 48px;
+				border: none;
+				background-color: transparent;
+				position: relative;
+				left: -1px;
+				cursor: pointer;
+			}
+
+			.dialog {
+				position: absolute;
+				box-shadow: 0 0 7px #666;
+				border-radius: 5px;
+				display: none;
+				z-index: 2;
+			}
+
+			.dialog .border {
+				background-image: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/dialogBorder.png);
+			}
+
+			.dialog td.border,
+			.dialog .pr,
+			.dialog .p7 {
+				width: 10px;
+			}
+
+			.dialog .pr,
+			.dialog .p7 {
+				height: 35px;
+			}
+
+			.dialog .pr {
+				float: left;
+				border-radius: 5px 0 0 0;
+			}
+
+			.dialog .p7 {
+				float: right;
+				border-radius: 0 5px 0 0;
+			}
+
+			.dialogTitle {
+				font-weight: bold;
+				line-height: 35px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+
+			.dialogTitle a {
+				display: block;
+				height: 27px;
+				width: 36px;
+				border-radius: 0 0 5px 5px;
+				float: right;
+				margin-top: 1px;
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/dialogClose.png) no-repeat;
+			}
+
+			.dialogTitle a:link,
+			.dialogTitle a:visited {
+				background-color: #C30;
+				opacity: 0.75;
+			}
+
+			.dialogTitle a:hover,
+			.dialogTitle a:active {
+				opacity: 1;
+			}
+
+			.dialog .box {
+				background-color: #FFF;
+				border: 1px solid #DFDFDF;
+			}
+
+			.dialog .pb {
+				height: 10px;
+				border-radius: 0 0 5px 5px;
+			}
+
+			.dialog .detailTable th {
+				width: 15%;
+			}
+
+			.dialog .detailTable td {
+				width: 18.3%;
+			}
+
+			#friendlyLink {
+				line-height: 31px;
+				clear: both;
+				padding: 0 10px 10px;
+			}
+
+			#friendlyLink .c,
+			#friendlyLink .title,
+			#friendlyLink .arrow {
+				float: left;
+			}
+
+			#friendlyLink .c,
+			#friendlyLink .arrow,
+			#friendlyLink .links {
+				height: 31px;
+			}
+
+			#friendlyLink .c {
+				background-position: -321px -46px;
+				width: 4px;
+			}
+
+			#friendlyLink .title {
+				color: #FFF;
+				font-weight: bold;
+				background-position: 0 -379px;
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+
+			#friendlyLink .arrow {
+				background-position: -325px -46px;
+				width: 15px;
+			}
+
+			#friendlyLink .links {
+				background-color: #EDEDED;
+				border-radius: 0 5px 5px 0;
+			}
+
+			#friendlyLink .links ul {
+				display: block !important;
+			}
+
+			#friendlyLink .links li {
+				font-size: 12px !important;
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/dotted_1.png) center right no-repeat;
+				float: left;
+				padding-left: 12px;
+				padding-right: 12px;
+				clear: none !important;
+			}
+
+			#friendlyLink .links a {
+				color: #666;
+			}
+
+			#friendlyLink .links a:hover,
+			#friendlyLink .links a:active {
+				border-bottom: 1px dotted #666;
+			}
+
+			#copyright {
+				color: #FFF;
+				line-height: 24px;
+				text-align: center;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+
+			#copyright li {
+				background: url(http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/dotted_2.png) right no-repeat;
+				padding-left: 6px;
+				padding-right: 6px;
+				display: inline-block;
+			}
+
+			#copyright a {
+				color: #FFF;
+				border-bottom: 1px dotted #FFF;
+			}
+
+			.thumbnail {
+				background-color: #EDEDED;
+			}
+
+			.thumbnailTitle,
+			.thumbnail_OP,
+			ul.thumbnail a {
+				display: block;
+			}
+
+			.thumbnail a {
+				line-height: 300px;
+				height: 300px;
+			}
+
+			.thumbnailTitle,
+			.thumbnail_OP {
+				position: absolute;
+			}
+
+			.thumbnail_OP {
+				padding-top: 6px;
+				padding-left: 6px;
+			}
+
+			.thumbnailTitle {
+				color: #FFF;
+				line-height: 24px;
+				width: 99%;
+				background-color: #222;
+				opacity: 0.75;
+				bottom: 0;
+				padding-left: 0.5%;
+				padding-right: 0.5%;
+			}
+
+			ul.thumbnail li,
+			table.thumbnail td {
+				background-color: #FFF;
+				position: relative;
+			}
+
+			ul.thumbnail {
+				overflow: auto;
+				zoom: 1;
+			}
+
+			ul.thumbnail li {
+				float: left;
+				width: 12.5%;
+				margin-bottom: 1px;
+			}
+
+			ul.thumbnail a {
+				border-right: 1px solid #C1DAD7;
+			}
+
+			ul.thumbnail a img {
+				max-height: 100%;
+				width: 100%;
+			}
+
+			table.thumbnail td {
+				border-right: 1px solid #DEDEDE;
+				text-align: center;
+			}
+
+			table.thumbnail a img {
+				width: 300px;
+			}
+		</style>
+		<script src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Script/jquery-1.7.1.js" type="text/javascript"></script>
+		<script src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Script/bs.js" type="text/javascript"></script>
+		<script src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Script/MSClass.js" type="text/javascript"></script>
+		<script src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Script/Default.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.inputText.bs').bstip({
+					forewrap: "<div class='bubble'>",
+					backwrap: "</div>",
+					hook: "bottom-left"
+				});
+			});
+		</script>
+
+
+
+
+
+	</head>
+	<body>
+		<table class="Mask" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td align="center">载入中……<br />
+					<img src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/loadingBar.gif" /></td>
+			</tr>
+		</table>
+		<div class="Mask">
+			<iframe frameborder="0" width="100%" scrolling="no"></iframe>
+		</div>
+		<form name="aspnetForm" method="post" action="ProjectInfo.aspx?Entry=Supervise&amp;PrjNum=3505211809060101&amp;ResourceTypeId=1"
+		 id="aspnetForm">
+			<div>
+				<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTkzODE5NDIwMg9kFgJmD2QWAgIDD2QWAgIDD2QWIAIBDxYCHgRUZXh0BRAzNTA1MjExODA5MDYwMTAxZAIDDxYCHwAFR+azieW3nuW4guWPsOi1hOS8geS4muWNj+S8muS8mummhuWPiuWVhuS9j+Wwj+WMuu+8iOS4iua6quWbrS1B5Zyw5Z2X77yJZAIFDxYCHwAFEuaIv+Wxi+W7uuetkeW3peeoi2QCBw8WAh8ABS3kuaHmma/vvIjnpo/lu7rvvInmiL/lnLDkuqflvIDlj5HmnInpmZDlhazlj7hkAgkPFgIfAAUJNjcxOTMwODE1ZAILDxYCHwAFCeazieW3nuW4gmQCDw8WAh8ABSPpl73lj5HmlLnlpJblpIfjgJAyMDE444CRQzA4MDAwM+WPt2QCEQ8WAh8ABQnljLrljr/nuqdkAhMPFgIfAAUBLWQCFQ8WAh8ABQEtZAIXDxYCHwAFBTIwODgwZAIZDxYCHwAFCDc0MTEzLjQ3ZAIbDxYCHwAFCjc0MTEzLjQ3TTJkAh0PFgIfAAUG5paw5bu6ZAIfDxYCHwAFCeWVhuS9j+alvGQCIQ8WAh8ABQzpobnnm67nm5HnrqFkZCbwZGA4+2hJJ4h6OaIkaI0nzh4j" />
+			</div>
+
+			<div>
+
+				<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="44F091BB" />
+			</div>
+			<div id="banner"></div>
+			<ul id="NAV">
+				<li class="BG br"></li>
+				<li class="BG b7"></li>
+				<li class="BGx links">
+					<ul>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Home.aspx">首页</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/CompanyQuery.aspx">企业信息查询</a></li>
+
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/RegConstructor.aspx">注册人员查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Manager.aspx">现场管理人员查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/TitleMan.aspx">中级及以上职称人员查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/LiablePerson.aspx">三类人员查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/OtherLiablePerson.aspx">交通水利三类人员查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Projects.aspx">工程项目查询</a></li>
+						<li style="font-size:13px"><a href="http://220.160.52.164:8213/gaia/infoPublic/index.html#/dashboard" target="_blank">访问新版</a></li>
+						<li style="font-size:13px"><a href="http://zjt.fujian.gov.cn/">返回厅网站</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div id="main">
+
+
+				<div id="crumb">
+					<img src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/guidepost.png" alt="" />当前位置：首页</div>
+
+				<div class="col_S3">
+					<div class="generalTitle orange"><span></span>项目情况</div>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" class="form orange">
+						<tr>
+							<th class="tint">项目编号</th>
+							<td style="width:18%;">
+								3505211809060101</td>
+							<th class="tint">项目名称</th>
+							<td style="width:25%;">
+								平潭市台资企业协会会馆及博览馆</td>
+							<th class="tint">项目分类</th>
+							<td>
+								房屋建筑工程</td>
+						</tr>
+						<tr>
+							<th class="tint">建设单位名称</th>
+							<td>
+								乡景（福建）房地产开发有限公司</td>
+							<th class="tint">建设单位组织机构代码</th>
+							<td colspan="3">
+								671930815</td>
+						</tr>
+						<tr>
+							<th class="tint">项目所在省</th>
+							<td>福建省</td>
+							<th class="tint">项目所在地市</th>
+							<td>
+								泉州市</td>
+							<th class="tint">项目所在区县</th>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<th class="tint">立项文号</th>
+							<td>
+								闽发改外备【2018】C080003号</td>
+							<th class="tint">立项级别</th>
+							<td colspan="3">
+								区县级</td>
+						</tr>
+						<tr>
+							<th class="tint">建设用地规划许可证编号</th>
+							<td>
+								-</td>
+							<th class="tint">建设工程规划许可证编号</th>
+							<td colspan="3">
+								-</td>
+						</tr>
+						<tr>
+							<th class="tint">总投资（万元）</th>
+							<td>
+								38600</td>
+							<th class="tint">总面积（平方米）</th>
+							<td colspan="3">
+								179800</td>
+						</tr>
+						<tr>
+							<th class="tint">建设规模</th>
+							<td>建筑面积179800m2，单体高度20米，其中地下室建筑面积33625.73m2，单体跨度34.2m，详见施工图纸范围内的全部内容</td>
+							<th class="tint">建设性质</th>
+							<td>
+								新建</td>
+							<th class="tint">工程用途</th>
+							<td>
+								公用建筑</td>
+						</tr>
+						<tr>
+							<th class="tint">数据来源</th>
+							<td colspan="5">
+								项目监管</td>
+						</tr>
+					</table>
+
+					<div class="panel_S5 orange">
+						<ul id="info_div">
+							<li id="ctl00_ContentPlaceHolder_liTBTenderInfo" onclick="ShowInfo(this,'TBTenderInfo');" class="current">招投标信息</li>
+							<li id="ctl00_ContentPlaceHolder_liTBContractRecordManage" onclick="ShowInfo(this,'TBContractRecordManage');">合同备案信息</li>
+							<li id="ctl00_ContentPlaceHolder_liTBProjectCensorInfo" onclick="ShowInfo(this,'TBProjectCensorInfo');">施工图审查信息</li>
+
+							<li id="ctl00_ContentPlaceHolder_liTBBuilderLicenceManage" onclick="ShowInfo(this,'TBBuilderLicenceManage');">施工许可信息</li>
+
+							<li id="ctl00_ContentPlaceHolder_liTBProjectFinishManage" onclick="ShowInfo(this,'TBProjectFinishManage');">竣工验收（备案）信息</li>
+							<li id="ctl00_ContentPlaceHolder_liNewTBProjectFinishCheckList" onclick="ShowInfo(this,'NewProject/TBProjectFinishCheckList');">竣工验收信息</li>
+							<li id="ctl00_ContentPlaceHolder_liTBProjectChangeList" onclick="ShowInfo(this,'TBProjectChangeList');">项目变更记录</li>
+						</ul>
+						<div id="infoContext" class="content">
+						</div>
+					</div>
+
+					<br />
+
+
+				</div>
+
+				<div id="friendlyLink">
+					<div class="c BG"></div>
+					<div class="title BGx">友情链接</div>
+					<div class="arrow BG"></div>
+					<div class="links">
+
+						<ul id="m1">
+							<li><a href="http://zjt.fujian.gov.cn/" target="_blank">福建住房和城乡建设网</a></li>
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">
+					if ($("#m1 li").length > 6) {
+						new Marquee("m1", 0, 0.1, null, null, 20, 5000, 3000, 31);
+					}
+				</script>
+			</div>
+			<div id="copyright">
+				<ul>
+					<li>版权所有：<a href="http://zjt.fujian.gov.cn/" target="_blank">福建省住房和城乡建设厅</a></li>
+					<li>地址：福州市鼓楼区北大路242号</li>
+					<li>邮编：350001</li>
+					<!--<li>电子邮箱：jstxxzx@fjjs.gov.cn </li>-->
+					<li>技术支持电话：0591-87602367，87616295，87619575，15280022883</li>
+				</ul>
+				<ul>
+					<li><a href="http://www.miibeian.gov.cn" target="_blank">闽 ICP 备 05022544 号</a></li>
+					<li>技术支持：<a href="javascript:void(0);" target="_blank">福州福大经纬信息科技有限公司</a></li>
+					<li>请使用ie9.0以上版本浏览</li>
+				</ul>
+			</div>
+
+			<script type="text/javascript">
+				appendCrumb(" &gt; <a href='http://220.160.52.164:96/ConstructionInfoPublish/Pages/ProjectSuperviseList.aspx'>企业项目信息查询</a> &gt; 平潭市台资企业协会会馆及博览馆");
+				ShowInfo($("#info_div li")[0], 'TBTenderInfo');
+
+				function ShowPage(Url) {
+					document.documentElement.scrollTop = 0;
+					window.pageYOffset = 0;
+					document.body.scrollTop = 0;
+					$("body").scrollTop(0);
+					$("#infoContext").html(
+						'<table width="100%" height="150" border="0" cellpadding="0" cellspacing="0"><tr><td align="center">载入中……<br /><img src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/loadingBar.gif" /></td></tr></table>'
+					);
+					$("body").attr("style", "overflow:hidden;");
+					$.ajax({
+						type: "get",
+						url: Url,
+						cache: false,
+						success: function(data) {
+							$("#infoContext").html(data);
+							$(".t.grey tr:even ").css("background-color", "#F2F2F2");
+							$("body").attr("style", "");
+						}
+					});
+				}
+
+				function ShowInfo(objDiv, Url) {
+					document.documentElement.scrollTop = 0;
+					window.pageYOffset = 0;
+					document.body.scrollTop = 0;
+					$("body").scrollTop(0);
+					$("#infoContext").html(
+						'<table width="100%" height="150" border="0" cellpadding="0" cellspacing="0"><tr><td align="center">载入中……<br /><img src="http://220.160.52.164:96/ConstructionInfoPublish/Pages/Images/loadingBar.gif" /></td></tr></table>'
+					);
+					$("body").attr("style", "overflow:hidden;");
+					$("#info_div li").each(function() {
+						//移除样式
+						$(this).removeClass("current");
+					});
+					$(objDiv).addClass("current");
+
+					//竣工验收备案 需要 单独处理：项目补录系统跳转至TBProjectFinishManage.aspx页面；项目监管系统跳转至TBProjectFinishManageForDetail.aspx页面
+					var finialPageName = Url;
+					// if (Url == "TBProjectFinishManage") {
+					// 	var prjNum = eval(3505211809060101);
+					// 	if (prjNum != "" && prjNum != undefined) {
+					// 		finialPageName = "TBProjectFinishManageForDetail";
+					// 	}
+					// }
+					if (finialPageName == 'TBTenderInfo') {
+						var data =
+							`<div id="plTdInfo">
+							
+						    <div id="divInfo">
+						        
+						                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+						                    <tr>
+						                        <th style="width:15%;">中标通知书编号</th>
+						                        <td style="width:21%;">3505211809060101-BD-001</td>
+						                        <th style="width:15%;">招标类型</th>
+						                        <td style="width:15%;">施工</td>
+						                        <th style="width:15%;">招标方式</th>
+						                        <td>直接委托</td>
+						                    </tr>
+						                    <tr>
+						                        <th>中标日期</th>
+						                        <td>2018-06-01</td>
+						                        <th>中标金额（万元）</th>
+						                        <td colspan="3">38600</td>
+						                    </tr>
+						                    <tr>
+						                        <th>招标代理单位名称</th>
+						                        <td>-</td>
+						                        <th>组织机构代码/<br /> 统一社会信用代码</th>
+						                        <td colspan="3">-</td>
+						                    </tr>
+						                    <tr>
+						                        <th>中标单位名称</th>
+						                        <td>江西天鑫建筑工程有限公司</td>
+						                        <th>组织机构代码/<br /> 统一社会信用代码</th>
+						                        <td colspan="3">9136080273639863XP</td>
+						                    </tr>
+						                    <tr>
+						                        <th>项目经理/<br />总监理工程师姓名</th>
+						                        <td>-</td>
+						                        <th>项目经理/<br />总监理工程师证件类型</th>
+						                        <td>-</td>
+						                        <th>项目经理/<br />总监理工程师证件号码</th>
+						                        <td>-</td>
+						                    </tr>
+						                </table>
+						            <br />
+						                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+						                    <tr>
+						                        <th style="width:15%;">中标通知书编号</th>
+						                        <td style="width:21%;">3505211809060101-BE-001</td>
+						                        <th style="width:15%;">招标类型</th>
+						                        <td style="width:15%;">监理</td>
+						                        <th style="width:15%;">招标方式</th>
+						                        <td>直接委托</td>
+						                    </tr>
+						                    <tr>
+						                        <th>中标日期</th>
+						                        <td>2018-06-01</td>
+						                        <th>中标金额（万元）</th>
+						                        <td colspan="3">38600</td>
+						                    </tr>
+						                    <tr>
+						                        <th>招标代理单位名称</th>
+						                        <td>-</td>
+						                        <th>组织机构代码/<br /> 统一社会信用代码</th>
+						                        <td colspan="3">-</td>
+						                    </tr>
+						                    <tr>
+						                        <th>中标单位名称</th>
+						                        <td>福建安华发展有限公司</td>
+						                        <th>组织机构代码/<br /> 统一社会信用代码</th>
+						                        <td colspan="3">726455979</td>
+						                    </tr>
+						                    <tr>
+						                        <th>项目经理/<br />总监理工程师姓名</th>
+						                        <td>-</td>
+						                        <th>项目经理/<br />总监理工程师证件类型</th>
+						                        <td>-</td>
+						                        <th>项目经理/<br />总监理工程师证件号码</th>
+						                        <td>-</td>
+						                    </tr>
+						                </table>
+						            
+						    </div>
+						
+						</div>`
+					}
+
+					if (finialPageName == 'TBContractRecordManage') {
+						var data =
+							`<div id="plCrmInfo">
+	
+    <div id="divInfo">
+        
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="form grey">
+                    <tr>
+                        <th>合同备案编号</th>
+                        <td>3505211809060101-HZ-001</td>
+                        <th>合同编号</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>合同类别</th>
+                        <td>-</td>
+                        <th>合同金额(万元)</th>
+                        <td>38600</td>
+                        <th>合同签订日期</th>
+                        <td>2018-06-15</td>
+                    </tr>
+                    <tr>
+                        <th>发包单位名称</th>
+                        <td>乡景（福建）房地产开发有限公司</td>
+                        <th>组织机构代码/<br />
+                        统一社会信用代码</th>
+                        <td colspan="3">671930815</td>
+                    </tr>
+                    <tr>
+                        <th>承包单位名称</th>
+                        <td>江西天鑫建筑工程有限公司</td>
+                        <th>组织机构代码/<br />
+                        统一社会信用代码</th>
+                        <td colspan="3">9136080273639863XP</td>
+                    </tr>
+                    <tr>
+                        <th>联合体承包单位名称</th>
+                        <td>-</td>
+                        <th>组织机构代码/<br />
+                        统一社会信用代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>承包范围</th>
+                        <td>-</td>
+                        <th>工程总工期</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>项目经理姓名</th>
+                        <td>肖小强</td>
+                        <th>项目经理证件类型</th>
+                        <td >-</td>
+                        <th>项目经理证件号码</th>
+                        <td>3505**********11</td>
+                    </tr>
+                  </table>
+            
+    </div>
+
+</div>
+`
+
+					}
+					if (finialPageName == 'TBProjectCensorInfo') {
+						var data =
+							`<div id="plPcInfo">
+	
+    <div id="divInfo">
+        
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+                    <tr>
+                        <th>施工图审查合格书编号</th>
+                        <td colspan="5">3505211809060101-TX-001</td>
+                    </tr>
+                    <tr>
+                        <th style="width:15%;">施工图审查机构名称</th>
+                        <td style="width:21%;">华侨大学建筑工程施工图审查事务所</td>
+                        <th style="width:15%;">施工图审查机构<br />组织机构代码</th>
+                        <td style="width:19%;">729734201</td>
+                        <th style="width:15%;">审查完成日期</th>
+                        <td>2018-11-25</td>
+                    </tr>
+                    <tr>
+                        <th>勘察单位名称一</th>
+                        <td>-</td>
+                        <th>勘察单位一<br />组织机构代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>勘察单位名称二</th>
+                        <td>-</td>
+                        <th>勘察单位二<br />组织机构代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>勘察单位名称三</th>
+                        <td>-</td>
+                        <th>勘察单位三<br />组织机构代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>设计单位名称一</th>
+                        <td>福建华景建筑设计院有限公司</td>
+                        <th>设计单位一<br />组织机构代码</th>
+                        <td colspan="3">913502037593566945</td>
+                    </tr>
+                    <tr>
+                        <th>设计单位名称二</th>
+                        <td>-</td>
+                        <th>设计单位二<br />组织机构代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                    <tr>
+                        <th>设计单位名称三</th>
+                        <td>-</td>
+                        <th>设计单位三<br />组织机构代码</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                
+                </table>
+            
+    </div>
+
+</div>
+
+`
+					}
+					if (finialPageName == 'TBBuilderLicenceManage') {
+						var data =
+							`<div id="plBlmInfo">
+	
+    <div id="divInfo">
+        
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+                    <tr>
+                        <th>施工许可证编号</th>
+                        <td>3505211809060101-SX-001</td>
+                        <th>发证日期</th>
+                        <td colspan="3">2018-10-16</td>
+                    </tr>
+                    <tr>
+                        <th>施工单位名称</th>
+                        <td>江西天鑫建筑工程有限公司</td>
+                        <th>施工单位组织机构代码</th>
+                        <td>9136080273639863XP</td>
+                        <th>施工单位<br />安全生产许可证编号</th>
+                        <td>（赣）JZ安许证字[2005]040068</td>
+                    </tr>
+                    <tr>
+                        <th>监理单位名称</th>
+                        <td>福建安华发展有限公司</td>
+                        <th>监理单位组织机构代码</th>
+                        <td colspan="3">726455979</td>
+                    </tr>
+                    <tr>
+                        <th>项目经理姓名</th>
+                        <td>肖小强</td>
+                        <th>项目经理证件类型</th>
+                        <td>身份证</td>
+                        <th>项目经理证件号码</th>
+                        <td>3505**********11</td>
+                    </tr>
+                    <tr>
+                        <th>总监理工程师姓名</th>
+                        <td>陈国雄</td>
+                        <th>总监理工程师证件类型</th>
+                        <td>身份证</td>
+                        <th>总监理工程师证件号码</th>
+                        <td>3505**********18</td>
+                    </tr>
+                    <tr>
+                        <th>备注</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                </table>
+            <br />
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+                    <tr>
+                        <th>施工许可证编号</th>
+                        <td>3505211809060101-SX-002</td>
+                        <th>发证日期</th>
+                        <td colspan="3">2019-10-11</td>
+                    </tr>
+                    <tr>
+                        <th>施工单位名称</th>
+                        <td>江西天鑫建筑工程有限公司</td>
+                        <th>施工单位组织机构代码</th>
+                        <td>9136080273639863XP</td>
+                        <th>施工单位<br />安全生产许可证编号</th>
+                        <td>（赣）JZ安许证字[2005]040068</td>
+                    </tr>
+                    <tr>
+                        <th>监理单位名称</th>
+                        <td>福建安华发展有限公司</td>
+                        <th>监理单位组织机构代码</th>
+                        <td colspan="3">726455979</td>
+                    </tr>
+                    <tr>
+                        <th>项目经理姓名</th>
+                        <td>肖小强</td>
+                        <th>项目经理证件类型</th>
+                        <td>身份证</td>
+                        <th>项目经理证件号码</th>
+                        <td>3505**********11</td>
+                    </tr>
+                    <tr>
+                        <th>总监理工程师姓名</th>
+                        <td>林永定</td>
+                        <th>总监理工程师证件类型</th>
+                        <td>身份证</td>
+                        <th>总监理工程师证件号码</th>
+                        <td>3505**********17</td>
+                    </tr>
+                    <tr>
+                        <th>备注</th>
+                        <td colspan="3">-</td>
+                    </tr>
+                </table>
+            
+    </div>
+
+</div>
+
+`
+					}
+					if (finialPageName == 'TBProjectFinishManage') {
+						
+						var data=`
+
+
+
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>
+	福建省建设行业企业和人员信息公开平台
+</title><link href="../CSS/Default.css" rel="stylesheet" type="text/css">
+    
+    
+    
+    
+    
+    
+
+
+
+    <form name="form1" method="post" action="TBProjectFinishManageForDetail.aspx?PrjID=&amp;PrjNum=3505211809060101&amp;index=0&amp;_=1623304819942" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzA4NTIwMTY4D2QWAgIDD2QWAgIBD2QWBAIBD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIBFgJmD2QWHAIBDxYCHgRUZXh0BQEtZAIDDxYCHwEFAS1kAgUPFgIfAQUBLWQCBw8WAh8BBQEwZAIJDxYCHwEFATBkAgsPFgIfAQUBLWQCDQ8WAh8BBQEtZAIPDxYCHwEFAS1kAhEPFgIfAQUBLWQCEw8WAh8BBQEtZAIVDxYCHwEFAS1kAhcPFgIfAQUBLWQCGQ8WAh8BBQEtZAIbDxYCHwBmZAIDDxYCHgdWaXNpYmxlaGRkrrKHxOkyp92Q75wdE6O8ReLdnhw=">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AC227144">
+</div>
+        <div id="plPfmInfo">
+	
+
+             <span style="font-size:12px; font-weight:bolder; ">备注：竣工验收（备案）信息和竣工验收信息，均可作为查询竣工验收信息的依据</span> 
+             <br> 
+             <br>
+
+            <div id="divInfo">
+                
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey">
+                            <tbody><tr>
+                                <th>竣工备案编号</th>
+                                <td>
+                                    -</td>
+                                <th>施工许可证编号</th>
+                                <td>
+                                    -</td>
+                                <th>项目编号</th>
+                                <td>
+                                    -</td>
+                            </tr>
+                            <tr>
+                                <th>实际造价（万元）</th>
+                                <td>
+                                    0</td>
+                                <th>实际面积（平方米）</th>
+                                <td>
+                                    0</td>
+                                <th>实际建设规模</th>
+                                <td>
+                                    -</td>
+                            </tr>
+                            <tr>
+                                <th>结构体系</th>
+                                <td>
+                                    -</td>
+                                <th>实际开工日期</th>
+                                <td>
+                                    -</td>
+                                <th>实际竣工验收日期</th>
+                                <td>
+                                    -</td>
+                            </tr>
+                            <tr>
+                                <th>其他工程特征指标</th>
+                                <td>
+                                    -</td>
+                                <th>工程质量</th>
+                                <td>
+                                    -</td>
+                                <th>登记时间</th>
+                                <td>
+                                    -</td>
+                            </tr>
+                            <tr>
+                                <th>备注</th>
+                                <td colspan="5">
+                                    -</td>
+                            </tr>
+                        </tbody></table>
+
+
+                        <div class="generalTitle orange"><span></span>竣工验收备案企业项目负责人明细</div>
+
+                        <table width="100%" border="1px #EEEEEE" cellpadding="0" cellspacing="0" class="form grey">
+                            <tbody><tr>
+                                <td style="width: 10%; font-weight: bolder; border-right: 0">所属单位类型名称  </td>
+                                <td style="width: 20%; font-weight: bolder; border-right: 0">所属单位名称</td>
+                                <td style="width: 15%; font-weight: bolder; border-right: 0">所属单位组织机构代码</td>
+                                <td style="width: 15%; font-weight: bolder; border-right: 0">项目负责人姓名</td>
+                                <td style="width: 10%; font-weight: bolder; border-right: 0">证件类型</td>
+                                <td style="width: 15%; font-weight: bolder; border-right: 0">项目负责人证件号码</td>
+                            </tr>
+                            
+                                    <tr id="rptList_ctl00_rptRecord_ctl00_trEmpty" class="r_bg">
+		<td colspan="6" style="text-align: center">
+                                            <span id="rptList_ctl00_rptRecord_ctl00_lblEmpty">无记录..</span>
+                                        </td>
+	</tr>
+	
+                                
+                        </tbody></table>
+
+                    
+
+
+
+            </div>
+            
+
+
+
+        
+</div>
+
+
+    </form>
+`
+
+					}
+					if (finialPageName == 'NewProject/TBProjectFinishCheckList') {
+						
+						var data=`
+
+
+
+
+    <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+
+    <link href="/ConstructionInfoPublish/Pages/CSS/Default.css" rel="stylesheet" type="text/css">
+    
+    
+    
+    
+    
+    
+
+    <style>
+        /*需求修改：人员信息无需tab条进行切换*/
+        /*.spanselect {
+        color: orange;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+
+    .spannoselect {
+        color: black;
+        text-decoration:none;
+        cursor: pointer;
+    }*/
+    </style>
+<title>
+	竣工验收信息
+</title>
+
+
+    <form name="form1" method="post" action="TBProjectFinishCheckList.aspx?PrjID=&amp;PrjNum=3505211809060101&amp;index=0&amp;_=1623305032376" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDA2MTMwMjY5D2QWAgIDD2QWAmYPZBYCAgEPFgIeC18hSXRlbUNvdW50ZmRkKq7lbI/TDhYLFih1jMEodYj6uFI=">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="94EF9EB6">
+</div>
+        <div id="plBlmInfo">
+	
+
+           <span style="font-size:12px; font-weight:bolder; ">备注：竣工验收（备案）信息和竣工验收信息，均可作为查询竣工验收信息的依据</span>                    <br>
+             <br>
+
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="t grey">
+                
+                        <tbody><tr style="background-color: rgb(242, 242, 242);">
+                            <th>数据等级</th>
+                            <th>工程名称</th>
+                            <th>实际造价（万元）</th>
+                            <th>实际面积（平方米）</th>
+                            <th>实际竣工验收时间</th>
+                            <th>竣工验收编号</th>
+                            <th>施工许可编号</th>
+                            <th>详情</th>
+                        </tr>
+                    
+                        <tr id="rptList_ctl01_trEmpty" class="r_bg">
+		<td colspan="6" style="text-align: center">
+                                <span id="rptList_ctl01_lblEmpty">无记录..</span>
+                            </td>
+	</tr>
+	
+                    
+            </tbody></table>
+
+
+            <div class="dialog" style="background-color: #ffffff">
+                <div class="border pr"></div>
+                <div class="border p7"></div>
+                <div class="dialogTitle border">
+                    <a href="javascript:void(0);" onclick="popOut();"></a>
+                    竣工验收信息详情
+                 
+                </div>
+                <div id="divDetailInfo" class="ItemsDiv" style="width: 100%">
+                    <table id="tbDetailInfo" width="100%" border="0" cellpadding="0" cellspacing="0" class="form grey detailTable">
+                        <tbody><tr>
+                            <th style="width: 15%;">竣工验收编号</th>
+                            <td style="width: 18.3%;">
+                                <label id="ltrPrjFinishCheckNum" class="jsonItemDetial"></label>
+                            </td>
+                            <th style="width: 15%;">工程名称</th>
+                            <td style="width: 18.3%;">
+                                <label id="ltrFinPrjName" class="jsonItemDetial"></label>
+                            </td>
+                            <th style="width: 15%;">中标通知书编号</th>
+                            <td style="width: 18.3%;">
+                                <label id="ltrTenderNum" class="jsonItemDetial"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>施工许可证编号</th>
+                            <td>
+                                <label id="ltrBuilderLicenceNum" class="jsonItemDetial"></label>
+                            </td>
+                            <th>实际造价（万元）</th>
+                            <td>
+                                <label id="ltrFactCost" class="jsonItemDetial"></label>
+                            </td>
+                            <th>实际面积（平方米）</th>
+                            <td>
+                                <label id="ltrFactArea" class="jsonItemDetial"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>长度（米）</th>
+                            <td>
+                                <label id="ltrLength" class="jsonItemDetial"></label>
+                            </td>
+                            <th>跨度（米）</th>
+                            <td colspan="3">
+                                <label id="ltrSpan" class="jsonItemDetial"></label>
+                            </td>
+                           
+                        </tr>
+                        <tr> 
+                            <th>实际建设规模</th>
+                            <td colspan="5">
+                                <label id="ltrFactSize" class="jsonItemDetial"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>结构体系</th>
+                            <td>
+                                <label id="ltrPrjStructureTypeNum" class="jsonItemDetial"></label>
+                            </td>
+                            <th>实际开工日期</th>
+                            <td>
+                                <label id="ltrBDate" class="jsonItemDetial"></label>
+                            </td>
+                            <th>实际竣工验收日期</th>
+                            <td>
+                                <label id="ltrEDate" class="jsonItemDetial"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>记录登记时间</th>
+                            <td>
+                                <label id="ltrCreateDate" class="jsonItemDetial"></label>
+                            </td>
+                            <th>数据来源</th>
+                            <td>
+                                <label id="ltrDataSource" class="jsonItemDetial"></label>
+                            </td>
+                            <th>数据等级</th>
+                            <td>
+                                <label id="ltrDataLevel" class="jsonItemDetial"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>备注</th>
+                            <td colspan="5">
+                                <label id="ltrMark" class="jsonItemDetial"></label>
+                            </td>
+
+                        </tr>
+
+                    </tbody></table>
+
+
+                </div>
+
+                <div id="divCorpList" class="ItemsDiv" style="width: 100%">
+                    <div class="dialogTitle border"><span>参与单位和相关项目负责人</span></div>
+                    <table id="tabCorpList" width="100%" border="0" cellpadding="0" cellspacing="0" class="t grey">
+                    </table>
+                </div>
+
+                <div id="divScan">
+                    <div class="dialogTitle border"><span>文档信息</span></div>
+
+                    <ul class="thumbnail" id="thumbnail">
+                    </ul>
+                </div>
+
+
+
+                <div class="border pb"></div>
+            </div>
+       
+        
+</div>
+
+        
+    </form>
+
+
+
+
+
+`
+						
+						
+
+					}
+					if (finialPageName == 'TBProjectChangeList') {
+						var data =
+							`<div id="divPdeu">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="t grey">
+
+	</table>
+	<div id="pagingPage"></div>
+</div>`
+					}
+
+
+
+					$("#infoContext").html(data);
+					$(".t.grey tr:even ").css("background-color", "#F2F2F2");
+					$("body").attr("style", "overflow:scroll;");
+
+					
+				}
+			</script>
+
+		</form>
+		<script type="text/javascript">
+			var s = 1;
+			$(".Mask").hide();
+			$("body").attr("style", "");
+			$("#searchPanel input[type='submit']").click(function(e) {
+				$(this).attr("value", "Wait");
+				var className = $(this).attr("class");
+				$(this).removeClass(className);
+				$(this).addClass("wait");
+				$("body").attr("style", "overflow:hidden;");
+				$(".Mask").show();
+				//timer(); 
+			});
+
+			function timer() {
+				setInterval("texting()", 1000);
+			}
+
+			function texting() {
+				$("#timer").text("本次查询已耗时 " + s + " 秒。");
+				s++;
+			}
+		</script>
+	</body>
+</html>

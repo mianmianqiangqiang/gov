@@ -60,7 +60,7 @@ $(document).ready(function() {
 	//获取项目详情信息
 	function Project_Details(PRJNUM) {
 		var data =
-			'[{"PRJNAME":"尧都区国际博览城建设项目","PRJNUM":1410021605130102.0,"PROVINCEPRJNUM":"","PRJTYPENAME":"房屋建筑","BuildCorpName":"山西铭泰房地产开发有限责任公司                                                                                                                                                                               ","PRJFUNCTIONNAME":"房屋建筑","BUILDCORPCODE":"9114010072592573X2  ","ProvinceNum":"山西省","CityNum":"临汾市","CountyNum":"尧都区","PRJPROPERTYNAME":"新建"}]'
+			'[{"PRJNAME":"豪邦·四季中央","PRJNUM":1410021605130102.0,"PROVINCEPRJNUM":"","PRJTYPENAME":"房屋建筑","BuildCorpName":"山西铭泰房地产开发有限责任公司                                                                                                                                                                               ","PRJFUNCTIONNAME":"房屋建筑","BUILDCORPCODE":"9114010072592573X2  ","ProvinceNum":"山西省","CityNum":"临汾市","CountyNum":"尧都区","PRJPROPERTYNAME":"新建"}]'
 		var datainfo = $.parseJSON(data); //  .datainfo;
 		$("#PrjNum").text(datainfo[0].PRJNUM);
 		$("#PrjName").text(datainfo[0].PRJNAME);

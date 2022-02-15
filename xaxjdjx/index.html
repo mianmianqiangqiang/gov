@@ -1,0 +1,697 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta charset="UTF-8" /><meta name="SiteName" content="四川省住房和城乡建设厅" /><meta name="SiteDomain" content="jst.sc.gov.cn" /><meta name="SiteIDCode" content="5100000065" /><meta name="ColumnName" content="数据开放共享" /><meta name="ColumnDescription" content="数据开放共享" /><meta name="ColumnKeywords" content="数据开放共享" /><meta name="ColumnType" content="数据开放共享" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	四川建设行业数据共享平台--四川住房和城乡建设厅
+</title><meta name="ArticleTitle" content="项目详细信息" /><meta name="PubDate" content="2021/12/22 18:33:38" /><meta name="ContentSource" content="本站" /><meta name="ColumnName" content="项目信息" /><meta name="ColumnType" content="数据服务" /></head>
+<body>
+    <link href=static/css/bootstrap.css rel="stylesheet" />
+    <link href=static/css/theme.css rel="stylesheet" />
+    <link href=static/css/font-awesome.min.css type="text/css" rel="stylesheet" />
+    <link href=static/css/ionicons.min.css rel="stylesheet" />
+    <link href=static/css/column.css rel="stylesheet" />
+    <link href=static/css/index.css rel="stylesheet" />
+    <link href=static/css/global.css  rel="stylesheet" type="text/css" />
+    <link href=static/css/layer.css rel="stylesheet" media="all" />  
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/layer.js"></script>
+    <script src="static/js/scripts.js"></script>
+    <script type="text/javascript">       
+        function myBrowser() {
+            var userAgent = navigator.userAgent,
+                     rMsie = /(msie\s|trident.*rv:)([\w.]+)/,
+                     rFirefox = /(firefox)\/([\w.]+)/,
+                     rOpera = /(opera).+version\/([\w.]+)/,
+                     rChrome = /(chrome)\/([\w.]+)/,
+                     rSafari = /version\/([\w.]+).*(safari)/;
+            var browser;
+            var version;
+            var ua = userAgent.toLowerCase();
+            function uaMatch(ua) {
+                var match = rMsie.exec(ua);
+                if (match != null) {
+                    return { browser: "IE", version: match[2] || "0" };
+                }
+                var match = rFirefox.exec(ua);
+                if (match != null) {
+                    return { browser: match[1] || "", version: match[2] || "0" };
+                }
+                var match = rOpera.exec(ua);
+                if (match != null) {
+                    return { browser: match[1] || "", version: match[2] || "0" };
+                }
+                var match = rChrome.exec(ua);
+                if (match != null) {
+                    return { browser: match[1] || "", version: match[2] || "0" };
+                }
+                var match = rSafari.exec(ua);
+                if (match != null) {
+                    return { browser: match[2] || "", version: match[1] || "0" };
+                }
+                if (match != null) {
+                    return { browser: "", version: "0" };
+                }
+            }
+
+            return uaMatch(userAgent.toLowerCase());
+        }//myBrowser() end
+
+        //以下是调用上面的函数
+        var browserMatch = myBrowser();
+        if (browserMatch.browser) {
+            browser = browserMatch.browser;
+            version = browserMatch.version;
+        }
+        if (browser == "IE" && version <= 8) {
+           var download= window.confirm("尊敬的用户：本站推荐使用IE 9.0及以上版本或Chrome、FireFox浏览器。您当前的浏览器版本为" +
+               browser + version + "，请及时升级");
+           if (download == true)
+               window.location.href = "https://www.microsoft.com/zh-cn/download/internet-explorer.aspx";
+           else
+               alert("如不升级，部分功能将不能正常使用。");
+        }
+    </script>
+    <form method="post" action="./psgxkz.aspx?id=AE1F4841-4BF6-4147-8E92-671D19E519AC&amp;dwgcbh=0" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="JNHWobqoK7dDnhL2hg7uDr8O2i84fhz1tZiE/uL9I1Wiov+VT4xGrKgFMVowQKKnoYwE0m42SWvokR+W2fSvuAbQ8LYndAzQR6SKDVhw4TGOuHgZadwEbobgR66y7SDwb8xSqIV1HNVhRckvgHjvbre2rPbaoPs9kkEai6KRQCFY2Enz" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B0239DDD" />
+</div>
+        <div class="top clearfix">
+            <div class="header-wrap">
+                <div class="header clearfix">
+                    <a href="#" class="logo"></a>
+                </div>
+            </div>
+            <div class="main-nav-wrap">
+                <div class="navbar clearfix">
+                    <ul class="nav">
+                        <li govcn="scjst" name="web">
+                            <a href="http://jst.sc.gov.cn">网站首页</a>
+                        </li>
+                        <li govcn="scjst" name="index">
+                            <a href="http://202.61.88.188/xxgx/index.aspx">平台首页</a>
+                        </li>
+                        <li govcn="scjst" name="enterp">
+                            <a href="http://202.61.88.188/xxgx/Enterprise/eList.aspx">企业信息</a>
+                        </li>
+                        <li govcn="scjst" name="person">
+                            <a href="http://202.61.88.188/xxgx/Person/rList.aspx">人员信息</a>
+                        </li>
+                        <li govcn="scjst" name="project">
+                            <a href="http://202.61.88.188/xxgx/Project/pList.aspx">项目信息</a>
+                        </li>
+                        <li govcn="scjst" name="faith">
+                            <a href="http://202.61.88.188/xxgx/loyall/Loyal.aspx">诚信信息</a>
+                        </li>
+                        <li govcn="scjst" name="performance">
+                            <a href="http://202.61.88.188/xxgx/Perfor/Performance.aspx">业绩信息</a>
+                        </li>
+                        <li govcn="scjst" name="pdzzz">
+                            <a href="http://202.61.88.188/xxgx/Project/pDzzz.aspx">电子证照</a>
+                        </li>
+                         <li govcn="scjst" name="Insurance">
+                            <a href="http://202.61.88.188/xxgx/Insurance/iList.aspx">保险保函</a>
+                        </li>
+                         <li govcn="scjst" name="zbdl">
+                            <a href="http://202.61.88.188/xxgx/Enterprise/eList.aspx?enteType=105">招标代理机构信息</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    <script src="static/js/vue-2.2.1.min.js"></script>
+    <script src="static/js/vue-resource.min.js"></script>
+    <script src="static/js/layer.js"></script>
+    <script src="static/js/moment.min.js"></script>
+    <style>
+        .page-wrap { z-index:auto }
+    </style>
+    
+    <div class="breadcrumb-wrap">
+        <ul class="breadcrumb">
+            <li><a href="http://202.61.88.188/xxgx/index.aspx"><i class="fa fa-map-marker"></i>首页</a> <span class="divider">/</span></li>
+            <li><a href="#">项目查询</a> <span class="divider">/</span></li>
+            <li class="active">项目信息</li>
+        </ul>
+    </div>
+    <style>
+        /*标识弹出层*/
+        .tab{
+            display:none;
+            position:absolute;
+            left:-200px;
+            z-index:10000;
+            min-width:520px;
+            min-height:150px;
+            /*border:1px solid #808080;*/
+            background:#FFF;
+            border-radius:8px;
+            box-shadow:5px 5px #e2dcdc;
+            top:12px;
+        }
+        .tab p{
+           
+            padding-left:10px;
+            padding-right:10px; 
+        }
+        .tab .tit{
+            font-size:14px;
+            font-family:"微软雅黑";
+        }
+    </style>
+    <div class="page-wrap">
+        <div id="TopContent_uc_ProjectBase_norm" class="page-body">
+            <div class="plr">
+                <div class="query_info_box ">
+                    <div class="user_info spmtop">
+                        <b title="旭辉城市综合体建设项目" style="display:inline"><i class="fa fa-cubes"></i>旭辉城市综合体建设项目</b>
+                        
+                    </div>
+                    <table class="table pro_table_box datas_table">
+                        <colgroup>
+                            <col class="printone" width="13%">
+                            <col class="printtwo" width="20%">
+                            <col class="printone" width="15%">
+                            <col class="printtwo" width="20%">
+                            <col class="printone" width="13%">
+                            <col class="printone">
+                        </colgroup>
+                        <tbody>
+							<tr>
+							    <th>项目编号</th>
+							    <td>5101151811160101</td>
+							    <th>施工单位</th>
+							    <td colspan="3">安庆市第一建筑安装工程公司</td>
+							</tr>
+                            <tr>
+                                <th>立项文号</th>
+                                <td ></td>
+                                <th>建设单位</th>
+                                <td colspan="3">成都兴彰房地产开发有限公司</td>								
+                            </tr>							
+                            <tr>
+                                <th>所属地区</th>
+                                <td>四川省成都市温江区</td>							
+                                <th>项目分类</th>
+                                <td>房屋建设</td>
+                                <th>建筑面积</th>
+                                <td>310649m²</td>
+                            </tr>
+                            <tr>
+                                <th>工程用途</th>
+                                <td>其他</td>							
+                                <th>总&#8194;投&#8194;资</th>
+                                <td>320000（万元）</td>
+                                <th></th>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="plr spmtop">
+                <div class="query_info_tab">
+                    <ul class="tinyTab datas_tabs clearfix">
+                        <li zhang="yun" name="li_zbxx" ><a data-contentid="tab_ztb" ><span>招投标<em class="datas_num">0</em></span></a><i>|</i></li>
+                        <li zhang="yun" name="li_sgtxx" ><a data-contentid="tab_sgtsc" ><span>施工图审查<em class="datas_num">0</em></span></a><i>|</i></li>
+                        <li zhang="yun" name="li_baxx" ><a data-contentid="tab_htba" ><span>合同备案<em class="datas_num">0</em></span></a><i>|</i></li>
+                        <li zhang="yun" name="li_xkzxx" ><a data-contentid="tab_sgxk" ><span>施工许可证<em class="datas_num">1</em></span></a><i>|</i></li>
+                        <li zhang="yun" name="li_jgysxx" ><a data-contentid="tab_jgysba" ><span>竣工验收<em class="datas_num">0</em></span></a><i>|</i></li>
+                        <li zhang="yun" name="li_cjdwxx" ><a data-contentid="tab_cjdw" ><span>各方责任主体<em class="datas_num">0</em></span></a><i>|</i></li>
+                        
+                    </ul>
+                </div>
+        </div>
+        </div>
+        
+   </div>
+<script>
+    $(function ()  {
+        $('li[zhang="yun"]').removeClass();
+        var x = '/xxgx/project/psgxkz.aspx';
+        x = x.replace("/xxgx","");
+        switch (x) {
+            case "/project/pbidxx.aspx".toLowerCase():
+                $("li[name='li_zbxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/psgtsc.aspx".toLowerCase():
+                $("li[name='li_sgtxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/phtbaxx.aspx".toLowerCase():
+                $("li[name='li_baxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/psgxkz.aspx".toLowerCase():
+                $("li[name='li_xkzxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/pjgysxx.aspx".toLowerCase():
+                $("li[name='li_jgysxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/projente.aspx".toLowerCase():
+                $("li[name='li_cjdwxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/projemp.aspx".toLowerCase():
+                $("li[name='li_cjryxx']").attr("class", "activeTinyTab");
+                break;
+            case "/project/pdecide.aspx".toLowerCase():
+                $("li[name='li_decide']").attr("class", "activeTinyTab");
+                break;
+            case "/project/pstaff.aspx".toLowerCase():
+                $("li[name='li_staff']").attr("class", "activeTinyTab");
+                break;
+            case "/project/pbench.aspx".toLowerCase():
+                $("li[name='li_bench']").attr("class", "activeTinyTab");
+                break;
+            case "/project/pwinbid.aspx".toLowerCase():
+                $("li[name='li_winbid']").attr("class", "activeTinyTab");
+                break;
+        };
+       
+        //假 标识弹出层
+        $('#identify').mouseover(function () {
+            $(this).children('.tab').css({ 'display': 'block' })
+        })
+        $('#identify').mouseout(function () {
+            $(this).children('.tab').css({ 'display': 'none' })
+        })
+    })
+</script>
+
+        <div class="page-wrap">
+            <div class="page-body">
+                
+    <div id="app">
+    <div class="page-wrap" style="z-index:auto">
+        <div class="page-body">
+            <div class="plr spmtop">
+                <div class="query_info_tab">
+                    <div class="clearfix"></div>
+                    <div class="tinyTabContent datas_tabs_box" id="apt_tabcontent">
+                        <div class="activeTinyTabContent" >
+                            <table class="table pro_table_box pro_table_borderright">
+                                <colgroup>
+                                    <col width="4%">
+                                    <col width="8%">
+                                    <col width="12%">
+                                    <col width="20%">
+                                    <col width="7%">
+                                    <col width="25%">
+                                    <col width="15%">
+                                    <col width="10%">
+                                    <col width="4%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>数据等级</th>
+                                        <th>施工许可证编号</th>
+                                        <th>单位工程</th>
+                                        <th>合同金额<br />（万元）</th>
+                                        <th>建设规模</th>
+                                        <th>发证单位</th>
+                                        <th>发证日期</th>
+                                        <th>查看</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr v-for="(item,index) in zslist">
+                                        <td data-header="序号">{{index+1}}</td>
+                                        <td data-header="序号">{{item.DataLevel}}级</td>
+                                        <td data-header="施工许可证编号">{{item.XKZBH}}</td>
+                                        <td data-header="单位工程">{{item.GCMC}}</td>
+                                        <td data-header="合同金额（万元）">{{item.HTJG}}</td>
+                                        <td data-header="建设规模" style="text-align:center;">{{item.JSGM}}</td>
+                                        <td data-header="发证单位">{{item.FZDW}}</td>
+                                        <td data-header="发证日期">{{item.FZRQ | dateformat}}</td>
+                                       <!-- <td data-header="查看" class="view"><a href="javascript:;" v-on:click="getdetail(item.XKZID)" class="layeropenwin"><i class="fa fa-eye"></i></a></td> -->
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="iframe_tab" class="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="dialog-wrap" id="dialog_1" style="display: none" >
+                            <div class="padding-20" v-if="detail">
+                                <div class="plr">
+                                    <div class="query_info_box">
+                                        <table width="100%" class="pro_table_box datas_table">
+                                            <colgroup>
+                                                <col width="18%">
+                                                <col width="32%">
+                                                <col width="18%">
+                                                <col width="32%">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>项目名称</th>
+                                                    <td colspan="1" data-header="项目名称">{{detail.XMMC}}</td>
+                                                    <th>单位工程名称</th>
+                                                    <td colspan="1" data-header="单位工程">{{detail.GCMC}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>项目编号</th>
+                                                    <td data-header="项目编号">{{detail.BH}}</td>
+                                                    <th>建设单位</th>
+                                                    <td data-header="立项文号">{{detail.JSDW}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>总投资（万元）</th>
+                                                    <td data-header="总投资（万元）">{{detail.XMZTZ | currency}}</td>
+                                                    <th>建设规模</th>
+                                                    <td data-header="建设规模">{{detail.JSGM}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>项目地址</th>
+                                                    <td data-header="项目地址">{{detail.XMDZ}}</td>
+                                                    <th>合同金额（万元）</th>
+                                                    <td data-header="合同金额（万元）">{{detail.HTJG | currency}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>施工许可证编号</th>
+                                                    <td data-header="施工许可证编号">{{detail.XKZBH}}</td>
+                                                    <th>施工单位安全生产许可证编号</th>
+                                                    <td data-header="安全生产许可证">{{detail.SafetyCerID}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>合同备案号</th>
+                                                    <td data-header="合同备案号">{{detail.HTBAH}}</td>
+                                                    <th>施工图审查合格书编号</th>
+                                                    <td data-header="施工图审查合格书编号">{{detail.CensorNum}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>项目经理</th>
+                                                    <td data-header="项目经理">{{detail.ConstructorName}}</td>
+                                                    <th>总监理工程师</th> 
+                                                    <td data-header="总监理工程师">{{detail.SupervisionName}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>质量监督备案号</th>
+                                                    <td data-header="质量监督备案号">{{detail.ZLJDBAH}}</td>
+                                                    <th>安全监督备案号</th>
+                                                    <td data-header="安全监督备案号">{{detail.AQJDBAH}}</td>
+                                                </tr> 
+                                                <tr>
+                                                    <th>发证单位</th>
+                                                    <td data-header="发证单位" colspan="1">{{detail.FZDW}}</td>
+                                                    <th>发证日期</th>
+                                                    <td data-header="发证日期" colspan="1">{{detail.FZRQ | dateformat("YYYY-MM-DD")}}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="plr spmtop">
+                                    <div class="query_info_box">
+                                        <label style="color: #015293; font-size: 18px; line-height: 29px;">各方责任主体</label>
+                                        <table width="100%" class="pro_table_box pro_table_borderright">
+                                            <colgroup>
+                                                <col width="12%">
+                                                <col width="30%">
+                                                <col width="20%">
+                                                <col width="38%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>参建角色</th>
+                                                    <th>企业名称</th>
+                                                    <th style="text-align:left;">证书编号</th>
+                                                    <th>资质项</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="cursorDefault">
+                                                <tr v-for="qy in detail.CyQy">
+                                                    <td data-header="参建类型">{{qy.CType}}</td>
+                                                    <td data-header="企业名称" style="text-align:left;">
+                                                        <span v-if="qy.QYBM==null">{{qy.QYMC}}</span>
+                                                        <span v-else>
+                                                        <a v-bind:href="'../Enterprise/eZsxx.aspx?id='+qy.QYBM" target="_blank">{{qy.QYMC}}</a></span>
+                                                    </td>
+                                                    <td data-header="统一社会信用代码" style="text-align:left;">
+                                                        <div style="height: 120px; overflow: auto;" v-if="qy.XYBH" >
+                                                          <span v-html="qy.XYBH.replace(',','<br/>').replace(',','<br/>')">{{qy.XYBH}}</span>
+                                                        </div>
+                                                    </td>
+                                                    <td data-header="所在地区"  style="text-align:left;">
+                                                        <div style="height: 120px; overflow: auto;" v-if="qy.SDMC">
+                                                            <span v-html="qy.SDMC.replace(',','<br/>').replace(',','<br/>').replace('，','<br/>').replace('，','<br>')">{{qy.SDMC}}</span>
+                                                        </div>
+                                                     </td>
+                                                </tr>
+                                             </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+
+            </div>
+        </div>
+
+        
+
+    <script type="text/javascript">
+        function Request(name) {
+            new RegExp("(^|&)" + name + "=([^&]*)").exec(window.location.search.substr(1));
+            return RegExp.$2
+        }
+
+        var vue = new Vue({
+            el: '#app',
+            data: {
+                zslist: [],
+                detail:null,
+                apiUrl: 'http://202.61.88.193:89//api/getdata/GetProjSgxkzList/'+Request("id"),
+                detailUrl: "http://202.61.88.193:89//api/getdata/GetProjSgxkzdetail/",
+                gcbh: Request("dwgcbh")
+            },
+            filters: {
+                dateformat: function (date, format) {
+                    if (!date) {
+                        return "";
+                    }
+                    if (!format) {
+                        format = ' YYYY-MM-DD'
+                    }
+                    var t = moment(date).format(format);
+                    return t;
+                },
+                currency: function (value) {
+                    var num = new Number(value);
+                    return num.toFixed(2)
+                },
+            },
+            mounted: function () {
+                this.getCustomers();
+
+                if (this.gcbh != "" & this.gcbh != "0") {
+                    this.getdetail(this.gcbh);
+                }
+            },
+
+            methods: {
+                getCustomers: function () {
+                    // this.$http.get(this.apiUrl).then(function (response) {
+                    //     if (response.ok == false) {
+                    //         return;
+                    //     }
+                        this.zslist = [
+  {
+    "XKZID": "a537618b-c05a-423f-bc34-98e51943f14b",
+    "XMBH": "AE1F4841-4BF6-4147-8E92-671D19E519AC",
+    "XMMC": "成都新华大道一段建设项目",
+    "XMDZ": "成都海峡科技产业开发园新华大道一段45号",
+    "JSDW": "成都红旗连锁股份有限公司",
+    "JSDWZZJGDM": null,
+    "JSDWDZ": null,
+    "JSDWFDDBR": null,
+    "GCMC": "房屋建设",
+    "GCBH": "5101152018007582",
+    "GCLB": 0,
+    "JSGM": "0",
+    "KDGD": 0.0,
+    "JGLX": 0,
+    "HTJG": 73236.91743,
+    "WBJE": 0.000000,
+    "WBBZ": 1,
+    "HTKGRQ": "0001-01-01 00:00:00",
+    "HTJGRQ": "0001-01-01 00:00:00",
+    "HTBAH": null,
+    "ZLJDBAH": null,
+    "AQJDBAH": null,
+    "XKZBH": "510115202009250502",
+    "KSRQ": "0001-01-01 00:00:00",
+    "JSRQ": "0001-01-01 00:00:00",
+    "FZDW": "",
+    "FZRQ": "2020-09-25",
+    "XMLX": null,
+    "XMSDNAME": null,
+    "BZ": null,
+    "BH": null,
+    "CreateTime": "0001-01-01 00:00:00",
+    "FTime": "0001-01-01 00:00:00",
+    "sjdw": null,
+    "sgdw": null,
+    "jldw": null,
+    "ConstructorName": "黄开东",
+    "SafetyCerID": null,
+    "CensorNum": null,
+    "SupervisionName": "丁天盛",
+    "XMZTZ": null,
+    "State": false,
+    "DataLevel": "D",
+    "ECERTURL": null,
+    "CyQy": null
+  }
+];
+                    // })
+                },
+                getdetail: function (id) {
+
+                    this.$http.get(this.detailUrl + id).then(function (response) {
+                        if (response.ok == false) {
+                            return;
+                        }
+
+                        this.detail = response.data;
+                        if (this.detail.GCMC != null) {
+                            layer.open({
+                                type: 1,
+                                title: "施工许可证信息",
+                                area: ['950px', '650px'],
+                                shadeClose: true, //点击遮罩关闭
+                                btn: ['知道了'],
+                                content: $('#dialog_1')
+                            });
+                        }
+                    })
+
+                    //this.detail = this.zslist[index];
+                    //layer.open({
+                    //    type: 1,
+                    //    title: this.detail.XMMC,
+                    //    area: ['950px', '650px'],
+                    //    shadeClose: true, //点击遮罩关闭
+                    //    btn: ['知道了'],
+                    //    content: $('#dialog_1')
+                    //});
+                }
+            }
+
+        })
+
+</script>
+
+        <div class="index-foot">
+            <div class="index-foot-main clearfix">
+                <div style="color: #FFF; font-size: 16px; text-align: center; padding-bottom: 20px;"> 
+                   <a href="http://jst.sc.gov.cn/scjst/contactus/contact-us.shtml" style="color:#FFFFFF">联系我们</a> 
+                </div>
+                <ul class="u1" style="width: 70px;margin-left:20px">
+                    <li>
+                        <div class="dzjg-link">
+                            <a href="http://bszs.conac.cn/sitename?method=show&id=1204075F1A9D0530E053012819ACC4C5" target="_blank"></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="u1" style="width: 100px;margin-left:10px">
+                    <li>
+                       <img src="static/picture/cabxagagbxaefgxcag.jpg" onclick="onLink()">
+                    </li>
+                </ul>
+                <ul class="u1" style="width: 300px;margin-left:30px">
+                    <li><span>主办单位:</span>四川省住房和城乡建设厅</li>
+                    <li><span>承办单位:</span>四川省住房和城乡建设厅信息中心</li>
+                    <li><span>地&#8194;&#8194;&#8194;&#8194;址:</span>成都市人民南路四段36号</li>
+                    <li><span>邮&#8194;&#8194;&#8194;&#8194;编:</span>610041</li>
+                </ul>
+                <ul class="u1" style="width: 305px;margin-left:50px;text-align:left;">
+                    <li><span>备案编号:</span>蜀ICP备19012814号-1</li>
+                    <li><span>网站标识码:</span>5100000065</li>
+                    <li>
+                        <img class="auto-style1" src="static/picture/icon_05.png" /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010402000507" target="_blank" style="color:white">川公网安备 51010402000507号</a></li>
+                </ul>
+                <ul class="u4" style="width: 300px;margin-left:10px">
+                    <li>
+                       <img src="static/picture/erweima.jpg" style="height:150px"></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+    <script>        
+        window.onload = function () {
+            $("li[govcn='scjst']").removeClass();
+            var x = '/xxgx/project/psgxkz.aspx';
+            if (x.indexOf("project") > -1) {
+                if (x.indexOf("pdzzz") > -1) {
+                    x = "/pdzzz";
+                } else {
+                    x = x.replace("/xxgx","");
+                    x = x.substring(0, 7);
+                }
+                
+            } else {
+                x = x.replace("/xxgx","");
+                x = x.substring(0, 7);
+            }
+        switch (x) {
+            case "/insura".toLowerCase():
+                $("li[name='Insurance']").attr("class", "active");
+                break;
+            case "/enterp".toLowerCase():
+                $("li[name='enterp']").attr("class", "active");
+                break;
+            case "/person".toLowerCase():
+                $("li[name='person']").attr("class", "active");
+                break;
+            case "/projec".toLowerCase():
+                $("li[name='project']").attr("class", "active");
+                break;
+            case "/loyall".toLowerCase():
+                $("li[name='faith']").attr("class", "active");
+                break;
+            case "/perfor".toLowerCase():
+                $("li[name='performance']").attr("class", "active");
+                break;
+            case "/pdzzz".toLowerCase():
+                $("li[name='pdzzz']").attr("class", "active");
+                break;
+            case "/Enterp".toLowerCase():
+                $("li[name='zbdl']").attr("class", "active");
+                break;
+        };
+    }
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6647b45850e12bf42ce7ed42bd381746";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+
+        function onLink(){
+            var urlStr = window.location.href
+            var linkUrl = "https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=5100000065&url=" + encodeURIComponent(urlStr)
+            window.open(linkUrl,'_blank')
+        }
+</script>
+
+</body>
+
+</html>

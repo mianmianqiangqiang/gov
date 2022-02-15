@@ -1,0 +1,229 @@
+
+	
+.temp_list .title
+{
+	width:23em;
+	padding-right:10px;
+}
+.newdetails
+{
+    width: 100%;
+    font-family: "宋体";
+    font-size: 12px;
+}
+.newdetails_content
+{
+    margin:20px 0;
+}
+.newdetails_content .col_01{
+	text-align:right;
+	}
+.newdetails_content .button{
+	padding-left:3.5em;
+	}
+.newdetails_content table input{
+	line-height:27px;
+	border:1px solid #bababa;
+	padding-left:6px;
+	}
+.newdetails_content table select{
+	height:27px;
+	padding-left:4px;
+	border:1px solid #bababa;
+	width:243px;
+	}
+.newdetails_content table tr{
+	height:37px;
+	}
+.newdetails_content table td{
+	width:100px;
+	}
+
+#NewListForm .temp_search
+{
+    width:100%;
+	margin:0 auto;
+}
+#NewListForm .temp_list{
+	width:100%;
+	margin:25px auto 4em auto;
+	}
+	
+	.return_bt{
+	background-image:url('../images/return_bt.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
+    width: 117px;
+    height: 40px;
+}
+.return_bt:hover{
+	background-image:url(../images/return_bt_hover.png);
+	cursor:pointer;
+	}
+	.save_bt{
+	background-image:url('../images/save_bt.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
+    width: 117px;
+    height: 40px;
+}
+.save_bt:hover{
+	background-image:url(../images/save_bt_hover.png);
+	cursor:pointer;
+	}
+	
+	
+.files_details_container{
+	width:1100px;
+	margin:20px auto 60px auto;
+	overflow:hidden;
+	}
+.files_details_container h1{
+	width:1000px;
+	text-align:center;
+	margin:1em auto 0 auto;
+	}
+.files_details_container h5{
+	width:10em;
+	text-align:right;
+	margin:0 auto 1em auto;
+	}
+.files_details_container p{
+	line-height:18px;
+	text-indent:2em;
+	}
+.files_details_container_content{
+	width:1000px;
+	margin:0 auto;
+	}
+.files_details_container_foot{
+	width:60em;
+	margin:0 auto;
+	text-align:right;
+	}
+.files_details_container hr{
+	width:1000px;
+	margin:1em auto;
+	}
+.downloads{
+	overflow:hidden;
+	clear:both;
+	}
+.downloads img{
+	margin-left:3em;
+	float:left;
+	}
+.downloads table{
+	float:left;
+	margin-left:2em;
+	}
+.downloads table tr{
+	height:26px;
+	}
+	
+.files_list_container
+{
+    width:1100px;
+	margin:20px auto 60px auto;
+	overflow:hidden;
+}
+
+.list_table{
+	width:1100px;
+	height:224px;
+	padding-right:10px;
+	margin:0 auto;
+	}
+.list_table table{
+	width:100%;
+	border-collapse:collapse;
+	}
+.list_table table tr{
+	height:21px;
+	}
+.list_table table th
+{
+    text-align:center;
+}	
+.list_table table th.policy_name{
+	width:40em;
+	padding-left:12em;
+	text-align:left;
+	}
+.title_name
+{
+    width:40em;
+}
+
+.col_01_value input 
+{
+    height:24px;
+}
+ .col_02_value input
+ {
+      height:24px;
+ }
+  .col_03_value input 
+  {
+       height:24px;
+  }
+  .col_04_value input
+  {
+       height:24px;
+  }
+  .col_05_value input
+  {
+       height:24px;}
+       
+       
+       
+.temp_list_addbtn .add_list01
+{
+    background-image:url('../images/add_list01.png');
+	background-repeat:no-repeat;
+    width: 80px;
+    height: 31px;
+    margin-left:980px;
+}
+.temp_list_addbtn
+{
+    	width:1078px;
+    	
+}
+
+ .policy_date
+{
+    width:60px;
+}
+.policy_pic
+{
+    width:24px;
+}
+.files_infor_style_02_content tr {
+  border-bottom: 1px dotted #c3c3c3;
+  cursor: pointer;
+}
+
+.policy_result table th {
+  color: #000000;
+}
+.wenjiantongzhi_level2_content
+{
+   width: 553px;
+  height: 270px;
+}
+.chufatongbao_level2_content
+{
+  width: 553px;
+  height: 240px;
+}
+.gongshigonggao_level2_content,.falvfagui_level2_content
+{
+  width: 480px;
+  height: 240px;
+}
+.hangyebiaozhun_level2_content,.hangyedongtai 
+{
+  width: 1068px;
+  height: 240px;
+}

@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#ffffff;
+	}
+.first_nav li a{
+	color:#ffffff;
+	}
+.first_nav li a.current{
+	color:#1675b8;
+	}
+.first_nav li a:hover{
+	color:#1675b8;
+	}
+.second_nav p{
+	color:#000000;
+	}
+.second_nav a{
+	color:#000000;
+	}
+.second_nav a:hover{
+	color:#4773c3;
+	}
+.search_head h3{
+	color:#ffffff;
+	}
+.search_content{
+	background-color:#fefefe;
+	}
+.search_content select{
+	color:#000000;
+	background-color:#ffffff;
+	}
+.search_key{
+	color:#6b6b6b;
+	background-color:#ffffff;
+	}
+.systems_head h3{
+	color:#426bbd;
+	}
+.systems_content{
+	background-color:#fefefe;
+	}
+.item_query_head h3{
+	color:#ffffff;
+	}
+.item_query_head a{
+	color:#ffffff;
+	}
+.item_query_content{
+	background-color:#fefefe;
+	}
+.query_type div{
+	color:#407fc6;
+	}
+.query_type div.current{
+	color:#f00000;
+	}
+.query_result{
+	background-color:#fefefe;
+	}
+.query_result > div > ul li{
+	color:#000000;
+	text-align:center;
+	}
+.query_result_01_ul li{
+	color:#000000;
+	}
+.query_result_02_ul li{
+	color:#000000;
+	}
+.query_result_03_ul li{
+	color:#000000;
+	}
+.query_list a{
+	color:#000000;
+	}
+#query_result_details_01_div{
+	color:#000000;
+	}
+.policy_head h3{
+	color:#ffffff;
+	}
+.policy_head a{
+	color:#000000;
+	}
+.policy_content{
+	background-color:#fefefe;
+	}
+.policy_type div{
+	color:#5e85c4;
+	}
+.policy_type div.current{
+	color:#fffffe;
+	}
+.policy_result table th{
+	color:#000000;
+	}
+.policy_result table a{
+	color:#000000;
+	}
+.credit_head h3{
+	color:#ffffff;
+	}
+.credit_head a{
+	color:#000000;
+	}
+.credit_content{
+	background-color:#fefefe;
+	}
+.credit_type div{
+	color:#5e85c4;
+	}
+.credit_type div.current{
+	color:#fefefe;
+	}
+.credit_result table th{
+	color:#000000;
+	}
+.credit_result table a{
+	color:#000000;
+	}
+.service_head h3{
+	color:#ffffff;
+	}
+.service_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.service_right_head{
+	color:#f7fbff;
+	background-color:#4784cf;
+	}
+.service_right_head h3{
+	color:#ffffff;
+	}
+.service_right_content{
+	background-color:#f4f4f4;
+	}
+.service_right_content h5{
+	color:#f00000;
+	}
+.service_right_content p{
+	color:#000000;
+	}
+.friendly_link_head h3{
+	color:#ffffff;
+	}
+.friendly_link_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.friendly_link_content a{
+	color:#000000;
+	}
+.friendly_link_content a:hover{
+	color:#f00000;
+	}
+.bottom{
+	color:#000000;
+	}
+.bottom a{
+	color:#000000;
+	}
+.bottom a:hover{
+	color:#3f55d9;
+	}
+.temp_search_head h3{
+	color:#ffffff;
+	}
+.temp_search_head ul li{
+	color:#5e85c4;
+	}
+.temp_search_head ul li.current{
+	color:#f00000;
+	}
+.temp_search_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.temp_search_content table input{
+	color:#000000;
+	background-color:#ffffff;
+	}
+.temp_search_content table select{
+	color:#000000;
+	background-color:#ffffff;
+	}
+.temp_list_head h3{
+	color:#426bbd;
+	}
+.temp_list_head p{
+	color:#ffffff;
+	}
+.temp_list_content{
+	background-color:#fefefe;
+	}
+.company_list th{
+	color:#000000;
+	background-color:#eeeeee;
+	}
+.company_list .odd{
+	color:#000000;
+	background-color:#ffffff;
+	}
+.company_list .even{
+	color:#000000;
+	background-color:#eeeeee;
+	}
+.company_list a{
+	color:#4773c3;
+	}
+.page{
+	color:#000000;
+	}
+.page .orange{
+	color:#f00000;
+	}
+.page ul a{
+	color:#000000;
+	}
+.page ul a:hover{
+	color:#f00000;
+	}
+.page .invalid{
+	color:#a9a9a9;
+	}
+.page .invalid:hover{
+	color:#a9a9a9;
+	}
+.page input{
+	color:#000000;
+	}
+.company_list tbody tr:hover{
+	background-color:#b9d3ed;
+	}
+.company_list tbody tr.current{
+	color:#4773c3;
+	}
+.company_list tbody tr.current a{
+	color:#4773c3;
+	}
+.employee_list th{
+	color:#000000;
+	background-color:#eeeeee;
+	}
+.employee_list{
+	color:#000000;
+	}
+.employee_list a{
+	color:#f00000;
+	}
+.employee_list .odd{
+	background-color:#ffffff;
+	}
+.employee_list .even{
+	background-color:#eeeeee;
+	}
+.employee_list tr:hover{
+	background-color:#f7f7f7;
+	}
+.employee_list .current{
+	color:#f00000;
+	}
+.employee_list .current a{
+	color:#f00000;
+	}
+.project_list{
+	color:#000000;
+	}
+.project_list a{
+	color:#4773c3;
+	}
+.project_list th{
+	color:#ffffff;
+	background-color:#4f97cf;
+	}
+.project_list .odd{
+	background-color:#ffffff;
+	}
+.project_list .even{
+	background-color:#f4f8fe;
+	}
+.project_list tr:hover{
+	background-color:#d7eafa;
+	}
+.project_list .current{
+	color:#4773c3;
+	}
+.credits_infor_head h3{
+	color:#ffffff;
+	}
+.credits_infor_head ul li{
+	color:#5e85c4;
+	}
+.credits_infor_head ul .current{
+	color:#e84418;
+	}
+.credits_infor_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.credits_infor_search table{
+	color:#000000;
+	}
+.credits_infor_search table input{
+	color:#000000;
+	}
+.credits_infor_kind{
+	color:#000000;
+	}
+.credits_infor_kind .current{
+	color:#f00000;
+	}
+.credits_infor_lists .table_list a{
+	color:#f00000;
+	}
+.credits_infor_lists .table_list th{
+	background-color:#eeeeee;
+	}
+.credits_infor_lists .odd{
+	background-color:#ffffff;
+	}
+.credits_infor_lists .even{
+	background-color:#eeeeee;
+	}
+.credits_infor_lists tbody tr:hover{
+	background-color:#d5d5d5;
+	}
+.credits_infor_lists .current{
+	color:#f00000;
+	}
+.files_infor_style_01_head h3{
+	color:#ffffff;
+	}
+.files_infor_style_01_level2_head a{
+	color:#000000;
+	}
+.files_infor_style_01_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.files_infor_style_01_content a{
+	color:#000000;
+	}
+.files_infor_style_01_content a:hover{
+	color:#f00000;
+	}
+.files_infor_style_02_head h3{
+	color:#ffffff;
+	}
+.files_infor_style_02_level2_head a{
+	color:#000000;
+	}
+.files_infor_style_02_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.files_infor_style_02_content a{
+	color:#000000;
+	}
+.files_infor_style_02_content a:hover{
+	color:#f00000;
+	}
+.files_infor_style_02_type ul li{
+	color:#5e85c4;
+	}
+.files_infor_style_02_type ul li.current{
+	color:#f00000;
+	}
+.files_infor_style_02_lists_container .odd{
+	background-color:#fefefe;
+	}
+.files_infor_style_02_lists_container .even{
+	background-color:#f0f0f0;
+	}
+.files_infor_style_01_type ul li{
+	color:#5e85c4;
+	}
+.files_infor_style_01_type ul li.current{
+	color:#f00000;
+	}
+.files_infor_style_03_head h3{
+	color:#ffffff;
+	}
+.files_infor_style_03_level2_head a{
+	color:#ffffff;
+	}
+.files_infor_style_03_type ul li{
+	color:#5e85c4;
+	}
+.files_infor_style_03_type ul li.current{
+	color:#f00000;
+	}
+.files_infor_style_04_head h3{
+	color:#426bbd;
+	}
+.files_infor_style_04_level2_head a{
+	color:#ffffff;
+	}
+.details_container h3{
+	color:#ffffff;
+	}
+.details_content{
+	color:#000000;
+	background-color:#fefefe;
+	}
+.basic_infor_head h4{
+	color:#628dca;
+	}
+.basic_infor table td{
+	background-color:#ffffff;
+	}
+.basic_infor table .col_01{
+	background-color:#d3def9;
+	}
+.basic_infor table .col_02{
+	background-color:#d3def9;
+	}
+.basic_infor table .col_03{
+	background-color:#d3def9;
+	}
+.details_infor_head h4{
+	color:#628dca;
+	}
+.details_infor_type ul li{
+	color:#5e85c4;
+	}
+.details_infor_type ul li.current{
+	color:#f00000;
+	}
+.details_infor_container{
+	background-color:#fefefe;
+	}
+.details_infor_container p{
+	color:#000000;
+	}
+.details_infor_container .leibie span{
+	color:#5e85c4;
+	}
+.details_infor_container .col_01{
+	background-color:#c9d6f7;
+	}
+.details_infor_container .col_02{
+	background-color:#c9d6f7;
+	}
+.details_infor_container .col_03{
+	background-color:#c9d6f7;
+	}
+.details_infor_container .lists_table th{
+	color:#000000;
+	background-color:#c9d6f7;
+	}
+.details_infor_container .lists_table .orange_name a{
+	color:#f00000;
+	}
+.details_infor_container .lists_table .blue_name a{
+	color:#4798d8;
+	}
+.details_infor_container .lists_table .odd{
+	background-color:#ffffff;
+	}
+.details_infor_container .lists_table .even{
+	background-color:#f5f5f5;
+	}
+.name_level3{
+	color:#4798d8;
+	}
+.details_infor_container .no_list_table a{
+	color:#4798d8;
+	}
+.download ul li a{
+	color:#000000;
+	}
+.download ul li a:hover{
+	color:#f00000;
+	}

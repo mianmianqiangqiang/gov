@@ -1,0 +1,59 @@
+/* 当前位置 */
+
+.ewb-location {
+	padding-top: 3px;
+	padding-left: 10px;
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 2px solid #1f9ad3;
+}
+
+.ewb-location-content {
+    padding-left: 20px;
+    color: #666;
+    background: url(../images/location_icon.png) left center no-repeat;
+    text-align: left;
+}
+
+.ewb-location-content a {
+    color: #666;
+}
+
+.ewb-location-content span {
+    color: #fe7b07;
+}
+
+/* 内容 */
+.ewb-detail-box {
+  padding: 30px 42px 47px 42px;
+  border: 1px solid #e3e3e3; }
+
+.article-info h1 {
+	margin-top:30px;
+	line-height: 42px;
+	text-align: center;
+	font-family: 'Microsoft YaHei';
+    font-size: 28px;
+    color: #000;
+}
+
+.infotime {
+	margin-top: 10px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #999;
+}
+
+.con img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.container {
+    width:1100px;
+}
+
+.ewb-side-btns{
+	left:55%;
+}

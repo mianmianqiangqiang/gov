@@ -1,0 +1,900 @@
+html {
+    color: #000;
+    background: #FFF;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: "";
+}
+
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+iframe {
+    display: block;
+}
+
+
+/* yui3 fonts */
+
+body {
+    font: 12px/1.231 "Microsoft YaHei", arial, helvetica, clean, sans-serif;
+    color: #333;
+	min-width: 1180px;
+}
+
+select,
+input,
+button,
+textarea {
+    font: 99% arial, helvetica, clean, sans-serif;
+}
+
+table {
+    font-size: inherit;
+    font: 100%;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* utilities */
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.l {
+    float: left !important;
+}
+
+.r {
+    float: right !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
+
+
+/*! grid system 24栅格 998px */
+
+.container {
+    width: 998px;
+    margin: 0 auto;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.span1 {
+    float: left;
+    width: 32px;
+}
+
+.span2 {
+    float: left;
+    width: 74px;
+}
+
+.span3 {
+    float: left;
+    width: 116px;
+}
+
+.span4 {
+    float: left;
+    width: 158px;
+}
+
+.span5 {
+    float: left;
+    width: 200px;
+}
+
+.span6 {
+    float: left;
+    padding-left: 10px;
+    width: 232px;
+}
+
+.span7 {
+    float: left;
+    width: 284px;
+}
+
+.span8 {
+    float: left;
+    width: 326px;
+}
+
+.span9 {
+    float: left;
+    width: 368px;
+}
+
+.span10 {
+    float: left;
+    width: 410px;
+}
+
+.span11 {
+    float: left;
+    width: 452px;
+}
+
+.span12 {
+    float: left;
+    width: 494px;
+}
+
+.span13 {
+    float: left;
+    width: 536px;
+}
+
+.span14 {
+    float: left;
+    width: 578px;
+}
+
+.span15 {
+    float: left;
+    width: 620px;
+}
+
+.span16 {
+    float: left;
+    width: 662px;
+}
+
+.span17 {
+    float: left;
+    width: 704px;
+}
+
+.span18 {
+    float: left;
+    width: 746px;
+}
+
+.span19 {
+    float: left;
+    width: 788px;
+}
+
+.span20 {
+    float: left;
+    width: 830px;
+}
+
+.span21 {
+    float: left;
+    width: 872px;
+}
+
+.span22 {
+    float: left;
+    width: 914px;
+}
+
+.span23 {
+    float: left;
+    width: 956px;
+}
+
+.span24 {
+    float: left;
+    width: 998px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml20 {
+    margin-left: 20px
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+/** 
+ * 以下可追加项目中的公共样式，
+ * 比如body上进行全局的文字设置（字体，大小，行高），全局a链接的基本状态定义，
+ * 适合页面的栅格系统
+ * 页面公共头尾部分等
+ */
+
+body {
+    font-size: 14px;
+}
+
+/* header */
+
+.ewb-header {
+    height: 158px;
+    background: url(../images/header_bg.jpg) center top no-repeat;
+}
+
+.ewb-flash {
+	display: block;
+	width: 998px;
+	height: 158px;
+}
+
+.ewb-logo-icon {
+    float: left;
+    margin: 33px 0 0 7px;
+    width: 68px;
+    height: 68px;
+}
+
+.ewb-logo-name {
+    float: left;
+    margin-top: 50px;
+    width: 412px;
+    height: 61px;
+}
+
+/* nav */
+
+.ewb-nav {
+    height: 74px;
+    background-color: #1f9ad3;
+}
+
+.ewb-nav-node {
+    float: left;
+    width: 109px;
+}
+
+.ewb-nav-node:first-child {
+	width: 124px;
+}
+
+.ewb-nav-node:first-child a {
+    border-left: 0;
+}
+
+.ewb-nav-node.first {
+    width: 124px;
+    border-left: 0;
+}
+
+.ewb-nav-node a {
+    display: block;
+    padding-top: 36px;
+    height: 38px;
+    line-height: 38px;
+    border-left: 1px solid #4caedc;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.ewb-nav-node a:hover,
+.ewb-nav-node a.current {
+    background-color: #0f73b2;
+}
+
+.ewb-nav-icon1 {
+    background: url(../images/nav_icon1.png) center 9px no-repeat;
+}
+
+.ewb-nav-icon2 {
+    background: url(../images/nav_icon2.png) center 11px no-repeat;
+}
+
+.ewb-nav-icon3 {
+    background: url(../images/nav_icon3.png) center 9px no-repeat;
+}
+
+.ewb-nav-icon4 {
+    background: url(../images/nav_icon4.png) center 10px no-repeat;
+}
+
+.ewb-nav-icon5 {
+    background: url(../images/nav_icon5.png) center 8px no-repeat;
+}
+
+.ewb-nav-icon6 {
+    background: url(../images/nav_icon6.png) center 11px no-repeat;
+}
+
+.ewb-nav-icon7 {
+    background: url(../images/nav_icon7.png) center 9px no-repeat;
+}
+
+.ewb-nav-icon8 {
+    background: url(../images/nav_icon8.png) center 9px no-repeat;
+}
+
+.ewb-nav-icon9 {
+    background: url(../images/jrfw.png) center 9px no-repeat;
+}
+
+/* 侧边按钮 */
+
+.ewb-side-btns {
+    position: fixed;
+    top: 319px;
+    left: 50%;
+    margin-left: 530px;
+    width: 48px;
+}
+
+.ewb-side-btns li {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 6px;
+    vertical-align: top;
+    position: relative;
+}
+
+.ewb-side-btns a,
+.ewb-side-btns span {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.ewb-side-btns span {
+    cursor: pointer;
+}
+
+.ewb-side-icon1 {
+    background: url(../images/side_icon1.png);
+}
+
+.ewb-side-btns li:hover .ewb-side-icon1 {
+	background: url(../images/side_icon1_hover.png);
+}
+
+.ewb-side-icon2 {
+    background: url(../images/side_icon2.png);
+}
+
+.ewb-side-btns li:hover .ewb-side-icon2 {
+    background: url(../images/side_icon2_hover.png);
+}
+
+
+.ewb-side-icon3 {
+    background: url(../images/side_icon3.png);
+}
+
+.ewb-side-btns li:hover .ewb-side-icon3 {
+    background: url(../images/side_icon3_hover.png);
+}
+
+.ewb-side-icon4 {
+    background: url(../images/side_icon4.png);
+}
+
+.ewb-side-btns li:hover .ewb-side-icon4 {
+    background: url(../images/side_icon4_hover.png);
+}
+
+
+.ewb-side-drop {
+	display: none;
+	position: absolute;
+	top: -30px;
+	left: -252px;
+	width: 233px;
+	padding-right: 19px;
+	cursor:pointer;
+}
+
+.ewb-side-btns li:hover .ewb-side-drop {
+	display: block;
+}
+
+.ewb-side-drop i {
+	position: absolute;
+	right: 7px;
+	top: 50%;
+	margin-top: -7px;
+	width: 13px;
+	height: 15px;
+	background: url(../images/drop_icon.png);
+}
+
+.ewb-phone-box {
+	padding: 10px 14px 14px 14px;
+	min-height: 80px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e36e07;
+}
+
+.ewb-phone-box2 {
+	padding: 10px 14px 14px 14px;
+	border-radius: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e36e07;
+	text-align:center;
+}
+
+.ewb-phone-box h3 {
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ewb-phone-box label {
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: top;
+}
+
+.ewb-phone-box ul {
+	float: left;
+	width: 120px;
+}
+
+.ewb-phone-box ul li {
+	width: 120px;
+	height: auto;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+
+.ewb-phone-box ul span {
+	display: block;
+	height: auto;
+	line-height: 24px;
+	width: 120px;
+}
+
+.ewb-side-drop.plm {
+	left: -252px;
+	top: 50%;
+	margin-top: -27px;
+}
+
+.ewb-side-drop.plm .ewb-phone-box {
+	min-height: auto;
+	padding: 13px 13px;
+}
+
+.ewb-side-drop.plm .ewb-phone-box h3 {
+	height: 28px;
+	line-height: 28px;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* footer */
+
+.ewb-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 167px;
+    background-color: #ededed;
+}
+
+.ewb-footer-hd {
+    height: 30px;
+    padding-left: 46px;
+}
+
+.ewb-footer-hd select {
+    float: left;
+    margin-left: 60px;
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    border: 0;
+}
+
+.ewb-footer-hd select.ml0 {
+    margin-left: 0;
+}
+
+.ewb-footer-bd {
+    padding-top: 20px;
+}
+
+.ewb-footer-content {
+    text-align: center;
+    line-height: 18px;
+    color: #999;
+}
+
+/* 通用列表样式 */
+
+.ewb-list-node {
+    padding-left: 14px;
+    height: 26px;
+    line-height: 26px;
+    background: url(../images/dian1.png) 0 50% no-repeat;
+    vertical-align: top;
+}
+
+.ewb-list-name {
+    float: left;
+    width: 80%;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ewb-list-date {
+    float: right;
+    color: #666;
+}
+
+.ewb-list-node:hover {
+    background: url(../images/dian2.png) 0 50% no-repeat;
+}
+
+.ewb-list-node:hover .ewb-list-name,
+.ewb-list-node:hover .ewb-list-date {
+    color: #fe7b07;
+}
+
+/* 公共标题样式 */
+
+.ewb-cm-hd {
+    height: 37px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.ewb-cm-tt {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 2px solid #1f9ad3;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f9ad3;
+}
+
+/* 分页 */
+
+.paging {
+    margin: 0 auto;
+    min-width: 635px;
+    height: 26px;
+}
+
+.wb-page-li {
+    float: left;
+    margin-left: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+
+.wb-page-li > a {
+    display: block;
+}
+
+.wb-page-li.ml6 {
+    margin-left: 6px;
+}
+
+.wb-page-li.ml20 {
+    margin-left: 20px;
+}
+
+.wb-page-item {
+    width: 34px;
+    height: 24px;
+    border: 1px solid #dfdfdf;
+    line-height: 24px;
+    color: #666;
+    background-color: #ffffff;
+}
+
+.wb-page-item:hover {
+    border: 1px solid #0030cc;
+}
+
+.wb-page-item.current {
+    width: 36px;
+    height: 26px;
+    line-height: 26px;
+    border: 0;
+    color: #0030cc;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.wb-page-default {
+    width: 36px;
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+}
+
+.wb-page-omit {
+    width: auto;
+    padding: 0 18px 0 18px;
+}
+
+.wb-page-family {
+    font-family: "SimSun";
+}
+
+.wb-page-fs12 {
+    font-size: 12px;
+}
+
+.wb-page-number {
+    width: auto;
+    padding: 0 6px 0 6px;
+    font-weight: bold;
+}
+
+.wb-page-to {
+    width: auto;
+}
+
+.wb-page-next {
+    width: 58px;
+}
+
+.wb-page-next:hover {
+    background-color: #999999;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #999;
+}
+
+.wb-page-go {
+    width: 30px;
+}
+.ewb-span24 {
+    width: 998px;
+    float:left;
+}
+.ewb-span23 {
+    width: 956px;
+    float:left;
+}
+.ewb-span22 {
+    width: 914px;
+    float:left;
+}
+.ewb-span21 {
+    width: 872px;
+    float:left;
+}
+.ewb-span20 {
+    width: 830px;
+    float:left;
+}
+.ewb-span19 {
+    width: 788px;
+    float:left;
+}
+.ewb-span18 {
+    width: 746px;
+    float:left;
+}
+.ewb-span17 {
+    width: 704px;
+    float:left;
+}
+.ewb-span16 {
+    width: 662px;
+    float:left;
+}
+.ewb-span15 {
+    width: 620px;
+    float:left;
+}
+.ewb-span14 {
+    width: 578px;
+    float:left;
+}
+.ewb-span13 {
+    width: 536px;
+    float:left;
+}
+.ewb-span12 {
+    width: 494px;
+    float:left;
+}
+.ewb-span11 {
+    width: 452px;
+    float:left;
+}
+.ewb-span10 {
+    width: 410px;
+    float:left;
+}
+.ewb-span9 {
+    width: 368px;
+    float:left;
+}
+.ewb-span8 {
+    width: 326px;
+    float:left;
+}
+.ewb-span7 {
+    width: 284px;
+    float:left;
+}
+.ewb-span6 {
+    width: 242px;
+    float:left;
+}
+.ewb-span5 {
+    width: 200px;
+    float:left;
+}
+.ewb-span4 {
+    width: 158px;
+    float:left;
+}
+.ewb-span3 {
+    width: 116px;
+    float:left;
+}
+.ewb-span2 {
+    width: 74px;
+    float:left;
+}
+.ewb-span1 {
+    width: 32px;
+    float:left;
+}
+.ewb-ml10 {
+    margin-left:10px;
+}
+.ewb-mt10 {
+    margin-top:10px;
+}
